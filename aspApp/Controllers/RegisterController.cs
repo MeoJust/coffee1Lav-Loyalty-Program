@@ -5,9 +5,11 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace aspApp.Controllers
 {
+    //УКАЗАНИЕ ПУТИ ДЛЯ ЗАПРОСА
     [Route("[controller]")]
     public class RegisterController : Controller
     {
+        //POST ЗАПРОС БЕЗ АВТОРИЗАЦИИ
         [HttpPost]
         [AllowAnonymous]
         public IActionResult Index([FromForm] RegistrationData data) {
@@ -22,7 +24,7 @@ namespace aspApp.Controllers
             return Ok("Registration successful");
         }
     }
-
+    //ОЖИДАЕМЫЕ ДАННЫЕ ПОЛЬЗОВАТЕЛЯ
     public class RegistrationData
     {
         public string Name { get; set; } = "Chelic";

@@ -8,6 +8,9 @@
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
+            builder.WebHost.UseUrls("http://*:5203");
+
+            //РАЗРЕШИТЬ ЛЮБЫЕ ЗАПРОСЫ ИЗ ЛЮБЫХ ИСТОЧНИКОВ
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowAll", builder =>
@@ -24,17 +27,13 @@
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            app.UseCors("AllowAll");
+
             app.UseStaticFiles();
 
-            app.UseCors("AllowAll"); // Добавьте это перед UseRouting и UseAuthorization
-
             app.UseRouting();
-
-            //app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
