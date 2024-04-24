@@ -50,9 +50,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Google.Apis": {
+              "target": "Package",
+              "version": "[1.68.0, )"
+            },
+            "Google.Apis.Walletobjects.v1": {
+              "target": "Package",
+              "version": "[1.68.0.3359, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.1, )"
             }
           },
           "imports": [

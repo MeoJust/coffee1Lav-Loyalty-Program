@@ -3,6 +3,9 @@
     public class Program
     {
         public static void Main(string[] args) {
+            //ССЫЛКА НА LOYALTY CARD КЛАСС
+            LoyaltyCard card = new LoyaltyCard();
+
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
@@ -29,6 +32,7 @@
                 app.UseExceptionHandler("/Home/Error");
             }
 
+            //ПОДКЛЮЧЕНИЕ РАЗРЕШЕНИЙ
             app.UseCors("AllowAll");
 
             app.UseStaticFiles();

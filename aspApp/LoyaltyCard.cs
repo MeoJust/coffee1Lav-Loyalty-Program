@@ -1,8 +1,4 @@
-﻿//////////////////////////////////////////////////////////////////
-//!СОЗДАЕТ СТАТИЧНУЮ КАРТУ, В ФИНАЛЬНОМ ПРОЕКТЕ НЕ ИСПОЛЬЗУЕТСЯ!//
-//////////////////////////////////////////////////////////////////
-
-using System.IdentityModel.Tokens.Jwt;
+﻿using System.IdentityModel.Tokens.Jwt;
 using Google.Apis.Auth.OAuth2;
 using Google.Apis.Services;
 using Google.Apis.Walletobjects.v1;
@@ -21,11 +17,13 @@ class LoyaltyCard
 
     //ПОЛУЧЕНИЕ СЕРВИСНОГО АККАУНТА И ПОДКЛЮЧЕНИЕ К GOOGLE WALLET API
     public LoyaltyCard() {
+        //ПУТЬ К КЛЮЧУ СЕРВИСНОГО АККАУНТА
         keyFilePath = "D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\saKey.json";
 
         Auth();
     }
 
+    //ПОДКЛЮЧЕНИЕ К GOOGLE WALLET API
     public void Auth() {
         credentials = (ServiceAccountCredential)GoogleCredential
             .FromFile(keyFilePath)
@@ -169,7 +167,7 @@ class LoyaltyCard
     }
 
     //ВСЕ ТОЖЕ САМОЕ, ТОЛЬКО ДЛЯ ОБЬЕКТА
-    public string CreateObject(string issuerId, string classSuffix, string objectSuffix) {
+    public string CreateObject(string issuerId, string classSuffix, string objectSuffix, string userName) {
         Stream responseStream = service.Loyaltyobject
             .Get($"{issuerId}.{objectSuffix}")
             .ExecuteAsStream();
@@ -271,13 +269,13 @@ class LoyaltyCard
         }
       },
             AccountId = "Account id",
-            AccountName = "Account name",
+            AccountName = userName,
             LoyaltyPoints = new LoyaltyPoints
             {
                 Label = "Points",
                 Balance = new LoyaltyPointsBalance
                 {
-                    Int__ = 800
+                    Int__ = 777
                 }
             }
         };
