@@ -6,6 +6,10 @@
             //ССЫЛКА НА LOYALTY CARD КЛАСС
             LoyaltyCard card = new LoyaltyCard();
 
+            //ПРИ ПЕРВОМ ЗАПУСКЕ, ДОЛЖЕН СОЗДАТЬСЯ КЛАСС КАРТЫ. ПРОВЕРЬ В КОНСОЛИ
+            //ЦЫФРЫ - ISSUER ID ИЗ КОНСОЛИ GOOGLE WALLET, ДАЛЬШЕ НАЗВАНИЕ КЛАССА КАРТЫ(МОЖНО, В ПРИНЦИПЕ, ЛЮБОЕ)
+            card.CreateClass("3388000000022315715", "coffeOneLav");
+
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.

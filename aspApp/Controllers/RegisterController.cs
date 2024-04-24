@@ -28,7 +28,7 @@ namespace aspApp.Controllers
 
             // После сохранения данных регистрации, создаем карту лояльности
             LoyaltyCard card = new LoyaltyCard();
-            //ЦЫФРЫ - ISSUER ID ИЗ КОНСОЛИ GOOGLE WALLET, ДАЛЬШЕ НАЗВАНИЕ КЛАССА КАРТЫ(МОЖНО, В ПРИНЦИПЕ, ЛЮБОЕ)
+            //ЦЫФРЫ - ISSUER ID ИЗ КОНСОЛИ GOOGLE WALLET, ДАЛЬШЕ НАЗВАНИЕ КЛАССА КАРТЫ, СОЗДАННОГО ПРИ ПЕРВОМ ЗАПУСКЕ
             string classId = "3388000000022315715.coffeOneLav";
             string objectId = $"{classId}.{data.Name}";
 
