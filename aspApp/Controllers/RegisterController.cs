@@ -5,47 +5,42 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace aspApp.Controllers
 {
-    //УКАЗАНИЕ ПУТИ ДЛЯ ЗАПРОСА
+    //Контроллер для регистрации пользователей
     [Route("[controller]")]
     public class RegisterController : Controller
     {
-        //POST ЗАПРОС БЕЗ АВТОРИЗАЦИИ
+        //POST запрос без авторизации
         [HttpPost]
         [AllowAnonymous]
-        public IActionResult Index([FromForm] RegistrationData data) {
-            //СОХРАНЕНИЕ ДАННЫХ В JSON ФОРМАТЕ
-            string json = JsonConvert.SerializeObject(data);
-            //ТУТ УКАЗЫВАЕШЬ ПУТЬ ДЛЯ СОХРАНЕНИЯ
+        public IActionResult Index([FromForm] User user) {
+            //сщхранение данных в json формате
+            string json = JsonConvert.SerializeObject(user);
+            //путь для сохранения данных
             string path = "D:\\_art\\_csharp\\coffeOneLoveProj\\_mySuperMegaDataBase";
-            //ЕСЛИ ПАПКА НЕ СУЩЕСТВУЕТ, ОНА БУДЕТ СОЗДАНА
             if (!Directory.Exists(path))
             {
                 Directory.CreateDirectory(path);
             }
-            //КОНСТРУКТОР СОЗДАНИЯ ИМЕНИ ФАЙЛА
-            string filename = Path.Combine(path, $"{data.Name}-{data.Phone}.json");
+            string filename = Path.Combine(path, $"{user.Name}-{user.Phone}.json");
             System.IO.File.WriteAllText(filename, json);
 
             // После сохранения данных регистрации, создаем карту лояльности
-            LoyaltyCard card = new LoyaltyCard();
-            //ЦЫФРЫ - ISSUER ID ИЗ КОНСОЛИ GOOGLE WALLET, ДАЛЬШЕ НАЗВАНИЕ КЛАССА КАРТЫ, СОЗДАННОГО ПРИ ПЕРВОМ ЗАПУСКЕ
+            Authorization auth = new Authorization("D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\saKey.json");
+            CardObject cardObject = new CardObject(auth.WalletService);
+            JWTGen jwtGen = new JWTGen(auth.Credentials);
+
             string classId = "3388000000022315715.coffeOneLav";
-            string objectId = $"{classId}.{data.Name}";
 
-            // СОЗДАНИЕ ОБЬЕКТ КАРТЫ С ИМЕНЕМ ПОЛЬЗОВАТЕЛЯ
-            string createdObjectId = card.CreateObject("3388000000022315715", "coffeOneLav", objectId, data.Name);
+            string objectId = $"{classId}.{user.Name}";
 
-            // СОЗДАНИЕ ССЫЛКИ С JWT КЛЮЧОМ ДЛЯ КАРТЫ ПОЛЬЗОВАТЕЛЯ
-            string jwtLink = card.CreateJWT("3388000000022315715", "coffeOneLav", objectId);
+            // Создание обьекта карты с данными пользователя
+            string createdObjectId = cardObject.CreateObject("3388000000022315715", "coffeOneLav", objectId, user.Name);
 
-            // ВЫЗОВ ССЫЛКИ НА КАРТУ
+            // Создание JWT ссылки на карту
+            string jwtLink = jwtGen.CreateJWT("3388000000022315715", "coffeOneLav", objectId);
+
+            // Вызов ссылки на карту
             return Ok(new { message = "Registration successful", jwtLink });
         }
-    }
-    //ОЖИДАЕМЫЕ ДАННЫЕ ПОЛЬЗОВАТЕЛЯ
-    public class RegistrationData
-    {
-        public string Name { get; set; } = "Chelic";
-        public string Phone { get; set; } = "+37525555555";
     }
 }
