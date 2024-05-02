@@ -64,7 +64,6 @@ namespace adminWPF
         }
 
         private void LoadLoyaltyObjects() {
-            // Используйте существующий метод для получения списка объектов карт лояльности
             string classId = "3388000000022315715.coffeOneLav";
             IList<LoyaltyObject> loyaltyObjects = GetAllLoyaltyObjects(classId);
             usersLV.ItemsSource = loyaltyObjects;
