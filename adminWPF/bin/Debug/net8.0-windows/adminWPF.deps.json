@@ -9,7 +9,8 @@
       "adminWPF/1.0.0": {
         "dependencies": {
           "Google.Apis.Auth": "1.68.0",
-          "Google.Apis.Walletobjects.v1": "1.68.0.3359"
+          "Google.Apis.Walletobjects.v1": "1.68.0.3359",
+          "Microsoft.VisualBasic": "10.3.0"
         },
         "runtime": {
           "adminWPF.dll": {}
@@ -62,6 +63,7 @@
           }
         }
       },
+      "Microsoft.VisualBasic/10.3.0": {},
       "Newtonsoft.Json/13.0.3": {
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
@@ -125,6 +127,13 @@
       "sha512": "sha512-panZHG7vARydL+cuRNxTsFSndnUrQmxM0/vgQfgq6iKLv6aJkVsFgjb0b7cjZGNbZ9FKtLFHHu6Va4BnNoma5Q==",
       "path": "google.apis.walletobjects.v1/1.68.0.3359",
       "hashPath": "google.apis.walletobjects.v1.1.68.0.3359.nupkg.sha512"
+    },
+    "Microsoft.VisualBasic/10.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AvMDjmJHjz9bdlvxiSdEHHcWP+sZtp7zwule5ab6DaUbgoBnwCsd7nymj69vSz18ypXuEv3SI7ZUNwbIKrvtMA==",
+      "path": "microsoft.visualbasic/10.3.0",
+      "hashPath": "microsoft.visualbasic.10.3.0.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.3": {
       "type": "package",

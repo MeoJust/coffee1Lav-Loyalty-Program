@@ -1,4 +1,6 @@
-﻿using Google.Apis.Walletobjects.v1.Data;
+﻿using Google;
+using Google.Apis.Walletobjects.v1;
+using Google.Apis.Walletobjects.v1.Data;
 using System.Windows;
 
 namespace adminWPF
@@ -6,9 +8,14 @@ namespace adminWPF
     //Логика формы MainWindow
     public partial class MainWindow : Window
     {
+        private WalletobjectsService _service;
+
         //Подключение к форме
-        public MainWindow() {
+        public MainWindow(WalletobjectsService service) {
             InitializeComponent();
+            _service = service;
+            LoadLoyaltyObjects();
+
         }
 
         //Обработка нажатия на кнопку
@@ -53,6 +60,34 @@ namespace adminWPF
             {
                 //Вывод сообщения оь ошибке
                 MessageBox.Show($"Ошибка при отправке сообщения: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void LoadLoyaltyObjects() {
+            // Используйте существующий метод для получения списка объектов карт лояльности
+            string classId = "3388000000022315715.coffeOneLav";
+            IList<LoyaltyObject> loyaltyObjects = GetAllLoyaltyObjects(classId);
+            usersLV.ItemsSource = loyaltyObjects;
+        }
+
+        public IList<LoyaltyObject> GetAllLoyaltyObjects(string classId) {
+            try
+            {
+                // Создание запроса на получение списка объектов определенного класса карты
+                LoyaltyobjectResource.ListRequest request = _service.Loyaltyobject.List();
+                request.ClassId = classId;
+                LoyaltyObjectListResponse response = request.Execute();
+                IList<LoyaltyObject> loyaltyObjects = response.Resources;
+                foreach (var lo in loyaltyObjects)
+                {
+                    Console.WriteLine(lo.Id);
+                }
+                return loyaltyObjects;
+            }
+            catch (GoogleApiException ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+                return null;
             }
         }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/Dm3zpCCIr7S0CD+76fyPwHqSiYZcRo78QZMtUd9U2YYnVYlopCh1AELu2lUa9z0Zm8qyigjMvk8jeUfOsW2tQ==",
+  "dgSpecHash": "bMtA15K+ILUo8XMug30yR3kCW4cGrPRvVYjvDJGVAwgGT1agBzubFryW1yDAUYGKiUeNjry+qA+kmN3sBs5I/g==",
   "success": true,
-  "projectFilePath": "D:\\_art\\_csharp\\coffeOneLoveProj\\coffee1Lav-Loyalty-Program-master\\aspApp\\aspApp.csproj",
+  "projectFilePath": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\aspApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\google.apis\\1.68.0\\google.apis.1.68.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\google.apis.auth\\1.68.0\\google.apis.auth.1.68.0.nupkg.sha512",

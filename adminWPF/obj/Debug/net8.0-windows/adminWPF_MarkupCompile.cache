@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\_art\_csharp\coffeOneLoveProj\coffee1Lav-Loyalty-Program-master\adminWPF\obj\Debug\net8.0-windows\
+D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\
 adminWPF
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\_art\_csharp\coffeOneLoveProj\coffee1Lav-Loyalty-Program-master\adminWPF\App.xaml
-11407045341
+D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\App.xaml
+2-216653475
 
-6207585550
+8-1218896546
 204-1891529024
-MainWindow.xaml;
+LoginWindow.xaml;MainWindow.xaml;
 
 False
 

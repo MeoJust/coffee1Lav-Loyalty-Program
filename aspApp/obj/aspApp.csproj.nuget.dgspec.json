@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\_art\\_csharp\\coffeOneLoveProj\\coffee1Lav-Loyalty-Program-master\\aspApp\\aspApp.csproj": {}
+    "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\aspApp.csproj": {}
   },
   "projects": {
-    "D:\\_art\\_csharp\\coffeOneLoveProj\\coffee1Lav-Loyalty-Program-master\\aspApp\\aspApp.csproj": {
+    "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\aspApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_art\\_csharp\\coffeOneLoveProj\\coffee1Lav-Loyalty-Program-master\\aspApp\\aspApp.csproj",
+        "projectUniqueName": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\aspApp.csproj",
         "projectName": "aspApp",
-        "projectPath": "D:\\_art\\_csharp\\coffeOneLoveProj\\coffee1Lav-Loyalty-Program-master\\aspApp\\aspApp.csproj",
+        "projectPath": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\aspApp.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\_art\\_csharp\\coffeOneLoveProj\\coffee1Lav-Loyalty-Program-master\\aspApp\\obj\\",
+        "outputPath": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\_progs\\_vs2022\\_sdk\\NuGetPackages"

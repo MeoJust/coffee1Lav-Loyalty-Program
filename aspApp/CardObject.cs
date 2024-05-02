@@ -143,7 +143,6 @@ namespace aspApp
 
         //Обновление объекта
         public string PatchObject(string issuerId, string objectSuffix) {
-            // Check if the object exists
             Stream responseStream = _service.Loyaltyobject
                 .Get($"{issuerId}.{objectSuffix}")
                 .ExecuteAsStream();
@@ -165,10 +164,8 @@ namespace aspApp
                 }
             }
 
-            // Object exists
             LoyaltyObject existingObject = JsonConvert.DeserializeObject<LoyaltyObject>(jsonResponse.ToString());
 
-            // Patch the object by adding a link
             Google.Apis.Walletobjects.v1.Data.Uri newLink = new Google.Apis.Walletobjects.v1.Data.Uri
             {
                 UriValue = "https://developers.google.com/wallet",

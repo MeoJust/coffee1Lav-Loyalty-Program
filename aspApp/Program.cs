@@ -19,6 +19,9 @@
             LoyaltyCardService loyaltyCardService = new LoyaltyCardService(auth.WalletService);
             loyaltyCardService.GetAllLoyaltyObjects("3388000000022315715.coffeOneLav");
 
+            LoyaltyCardManager loyaltyCardManager = new LoyaltyCardManager(auth.WalletService);
+            loyaltyCardManager.UpdateLoyaltyPoints("3388000000022315715.your-issuer-id.your-class-suffix.CoffeeMan", 777);
+
 
             var builder = WebApplication.CreateBuilder(args);
 
