@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|d:\\_art\\_csharp\\coffeoneloveproj\\apps\\adminwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|d:\\_art\\_csharp\\coffeoneloveproj\\apps\\adminwpf\\notifiwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:notifiwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\notifiwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:notifiwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\apiset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:apiset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\apiset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:apiset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\notifisender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\cardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:cardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -58,30 +54,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-01T13:23:48.616Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "LoginWindow.xaml.cs",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\LoginWindow.xaml.cs",
               "RelativeToolTip": "LoginWindow.xaml.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAuwBcAAABMAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAuwBYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T13:21:31.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "LoginWindow.xaml",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "LoginWindow.xaml",
@@ -92,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "APISet.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\APISet.cs",
               "RelativeDocumentMoniker": "APISet.cs",
@@ -117,23 +102,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
+              "Title": "NotifiWindow.xaml",
+              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\NotifiWindow.xaml",
+              "RelativeDocumentMoniker": "NotifiWindow.xaml",
+              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\NotifiWindow.xaml",
+              "RelativeToolTip": "NotifiWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-30T20:09:17.346Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAIwEMAAABQAAAA",
+              "Title": "NotifiWindow.xaml.cs",
+              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\NotifiWindow.xaml.cs",
+              "RelativeDocumentMoniker": "NotifiWindow.xaml.cs",
+              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\NotifiWindow.xaml.cs",
+              "RelativeToolTip": "NotifiWindow.xaml.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIBBwEEAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T20:09:15.673Z",
               "EditorCaption": ""

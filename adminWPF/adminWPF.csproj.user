@@ -15,7 +15,7 @@
     <Page Update="LoginWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MainWindow.xaml">
+    <Page Update="NotifiWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

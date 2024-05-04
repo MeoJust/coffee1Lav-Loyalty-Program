@@ -15,14 +15,18 @@ namespace adminWPF
 
         public LoginWindow() {
             InitializeComponent();
+
             _password = File.ReadAllText(_passwordPath);
             _login = File.ReadAllText(_loginPath);
+
+            loginTXT.Text = "";
+            passwordTXT.Text = "";
         }
 
         private void loginBTN_Click(object sender, RoutedEventArgs e) {
             if (_login == loginTXT.Text && _password == passwordTXT.Text) {
-                MainWindow mainWindow = new MainWindow(_apiSet.WalletService);
-                mainWindow.Show();
+                NotifiWindow notifiWindow = new NotifiWindow(_apiSet.WalletService);
+                notifiWindow.Show();
                 Close();
             }
             else
