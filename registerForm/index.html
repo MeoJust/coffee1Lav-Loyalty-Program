@@ -54,7 +54,7 @@
     // Your web app's Firebase configuration
     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
     const firebaseConfig = {
-      apiKey: "AIzaSyCGgkLNgBcfyADBub39AoxhEFk6wzzauGI",
+      apiKey: "API_KEY",
       authDomain: "coffeoneloveproj.firebaseapp.com",
       projectId: "coffeoneloveproj",
       storageBucket: "coffeoneloveproj.appspot.com",
@@ -70,7 +70,7 @@
     navigator.serviceWorker.register("sw.js").then(registration => {
       getToken(messaging, { 
         serviceWorkerRegistration: registration,
-        vapidKey: 'BIM-9Vh5iC5Wn4CaVHzr0nZt0Wv6Lps5F0RlEpmdqoZlShu7elRTeLZQ706WIucJbv-3cMhSFKpwcx4IRYpmC2Q'}).then((currentToken) => {
+        vapidKey: 'FCM_VAPID_KEY'}).then((currentToken) => {
         if (currentToken) {
           console.log('fcm token is:', currentToken);
           // Send the token to your server and update the UI if necessary
