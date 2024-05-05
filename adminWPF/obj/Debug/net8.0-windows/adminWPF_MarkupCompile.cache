@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\App.xaml
-21573426431
+51173337972
 
-8-979625573
+12667838759
 204-1891529024
-LoginWindow.xaml;NotifiWindow.xaml;
+BonusPointsWindow.xaml;ChooseActionWindow.xaml;LoginWindow.xaml;NotifiWindow.xaml;WelcomeWindow.xaml;
 
 False
 

@@ -18,9 +18,9 @@ namespace adminWPF
             _service = service;
             LoadLoyaltyObjects();
 
-            idTXT.Text = "";
-            headerTXT.Text = "";
-            bodyTXT.Text = "";
+            idTXT.Clear();
+            headerTXT.Clear();
+            bodyTXT.Clear();
         }
 
         //Обработка нажатия на кнопку
@@ -64,8 +64,8 @@ namespace adminWPF
                 //Вывод сообщения об успехе
                 MessageBox.Show("Сообщение успешно отправлено!", "Есть!", MessageBoxButton.OK, MessageBoxImage.Information);
                 //Сброс текстовых полей
-                headerTXT.Text = "";
-                bodyTXT.Text = "";
+                headerTXT.Clear();
+                bodyTXT.Clear();
             }
             catch (Exception ex)
             {

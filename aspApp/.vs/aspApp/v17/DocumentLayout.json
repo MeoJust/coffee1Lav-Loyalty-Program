@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|solutionrelative:cardclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|d:\\_art\\_csharp\\coffeoneloveproj\\apps\\aspapp\\loyaltycardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\loyaltycardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|solutionrelative:loyaltycardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "LoyaltyCardManager.cs",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\LoyaltyCardManager.cs",
               "RelativeToolTip": "LoyaltyCardManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T22:30:44.375Z",
               "EditorCaption": ""
@@ -71,8 +71,7 @@
               "RelativeToolTip": "LoyaltyCardService.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAIwB0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:52:27.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T20:52:27.693Z"
             },
             {
               "$type": "Document",
@@ -94,7 +93,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAB6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-21T19:15:40.919Z",
               "EditorCaption": ""
@@ -109,8 +108,7 @@
               "RelativeToolTip": "CardObject.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAIwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T20:08:19.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T20:08:19.041Z"
             },
             {
               "$type": "Document",
@@ -158,8 +156,7 @@
               "RelativeToolTip": "CardClass.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAI0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T20:03:31.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T20:03:31.399Z"
             }
           ]
         }

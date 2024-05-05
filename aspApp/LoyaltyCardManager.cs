@@ -20,6 +20,11 @@ public class LoyaltyCardManager
         patchObject.LoyaltyPoints.Balance = new LoyaltyPointsBalance();
         patchObject.LoyaltyPoints.Balance.Int__ = currentPoints + additionalPoints;
 
+        if (patchObject.LoyaltyPoints.Balance.Int__ < 0)
+        {
+            patchObject.LoyaltyPoints.Balance.Int__ = 0;
+        }
+
         _walletService.Loyaltyobject.Patch(patchObject, loyaltyCardId).Execute();
     }
 }

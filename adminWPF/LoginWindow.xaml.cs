@@ -25,8 +25,8 @@ namespace adminWPF
 
         private void loginBTN_Click(object sender, RoutedEventArgs e) {
             if (_login == loginTXT.Text && _password == passwordTXT.Text) {
-                NotifiWindow notifiWindow = new NotifiWindow(_apiSet.WalletService);
-                notifiWindow.Show();
+                ChooseActionWindow chooseWindow = new ChooseActionWindow();
+                chooseWindow.Show();
                 Close();
             }
             else
