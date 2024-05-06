@@ -13,6 +13,9 @@
     <Compile Update="ChooseActionWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="FreeCupWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="LoginWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -25,6 +28,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ChooseActionWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FreeCupWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="LoginWindow.xaml">

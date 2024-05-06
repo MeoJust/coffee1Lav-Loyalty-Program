@@ -21,7 +21,7 @@ namespace adminWPF
                 // Получение объекта карты по ID
                 LoyaltyObject loyaltyObject = _service.Loyaltyobject.Get(objectId).Execute();
 
-                // Создание сообщения
+                // Создание списка сообщений, если его нет
                 if (loyaltyObject.Messages == null)
                 {
                     loyaltyObject.Messages = new List<Message>();

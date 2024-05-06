@@ -65,3 +65,5 @@ D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\WelcomeW
 D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\WelcomeWindow.baml
 D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\BonusPointsWindow.g.cs
 D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\BonusPointsWindow.baml
+D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\FreeCupWindow.g.cs
+D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\FreeCupWindow.baml

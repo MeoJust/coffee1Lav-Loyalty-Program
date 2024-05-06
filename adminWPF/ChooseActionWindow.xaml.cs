@@ -21,5 +21,11 @@ namespace adminWPF
             bpWindow.Show();
             Close();
         }
+
+        private void haliavaBTN_Click(object sender, RoutedEventArgs e) {
+            FreeCupWindow freeCupWindow = new FreeCupWindow(_apiSet.WalletService);
+            freeCupWindow.Show();
+            Close();
+        }
     }
 }

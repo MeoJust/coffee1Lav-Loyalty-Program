@@ -8,7 +8,8 @@
         Title="ChooseActionWindow" Height="450" Width="800">
     <Grid>
         <Button x:Name="messBTN" Content="mess" Click="messBTN_Click" HorizontalAlignment="Left" Margin="522,217,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="pointsBTN" Content="points" Click="pointsBTN_Click" HorizontalAlignment="Left" Margin="522,254,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="pointsBTN" Content="points" Click="pointsBTN_Click" HorizontalAlignment="Left" Margin="522,307,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="haliavaBTN" Content="haliava" Click="haliavaBTN_Click" HorizontalAlignment="Left" Margin="522,263,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
