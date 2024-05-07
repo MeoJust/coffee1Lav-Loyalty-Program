@@ -5,20 +5,71 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:adminWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TextBox x:Name="idTXT" HorizontalAlignment="Left" Margin="125,34,0,0" TextWrapping="Wrap" Text="object id" VerticalAlignment="Top" Width="604"/>
-        <TextBox x:Name="headerTXT" HorizontalAlignment="Left" Margin="126,57,0,0" TextWrapping="Wrap" Text="header" VerticalAlignment="Top" Width="603"/>
-        <TextBox x:Name="bodyTXT" HorizontalAlignment="Left" Margin="126,80,0,0" TextWrapping="Wrap" Text="body" VerticalAlignment="Top" Width="603"/>
-        <Button x:Name="sendBTN" Content="send" Click="sendBTN_Click" HorizontalAlignment="Left" Margin="420,144,0,0" VerticalAlignment="Top"/>
-        <ListView x:Name="usersLV" SelectionChanged="usersLV_SelectionChanged" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="21,217,38,17">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="Auto"/>
-                </GridView>
-            </ListView.View>
-        </ListView>
-        <DatePicker x:Name="endDatePicker" HorizontalAlignment="Left" Margin="561,171,0,0" VerticalAlignment="Top"/>
-        <DatePicker x:Name="startDatePicker" HorizontalAlignment="Left" Margin="561,130,0,0" VerticalAlignment="Top"/>
-    </Grid>
+        Title="NotifiWindow" Height="720" Width="1280">
+    <Window.Background>
+        <ImageBrush ImageSource="D:\_art\_csharp\coffeOneLoveProj\_background\coffee_beans_brown_1170912_1920x1080.jpg"/>
+    </Window.Background>
+    <Viewbox>
+        <Grid>
+            <TextBox x:Name="idTXT" HorizontalAlignment="Center" Margin="0,53,0,0" TextWrapping="Wrap" Text="object id" VerticalAlignment="Top" Width="604"/>
+            <TextBox x:Name="headerTXT" HorizontalAlignment="Center" Margin="0,76,0,0" TextWrapping="Wrap" Text="header" VerticalAlignment="Top" Width="603"/>
+            <TextBox x:Name="bodyTXT" HorizontalAlignment="Center" Margin="0,99,0,0" TextWrapping="Wrap" Text="body" VerticalAlignment="Top" Width="603"/>
+            <Button x:Name="sendBTN" Content="Отправить" Click="sendBTN_Click" FontFamily="Impact" FontSize="12" Foreground="AliceBlue" HorizontalAlignment="Center" Margin="0,144,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.709,0.281">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="Cyan"/>
+                        <Setter Property="BorderBrush" Value="DarkCyan"/>
+                        <Setter Property="BorderThickness" Value="2"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="5">
+                                        <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <ListView x:Name="usersLV" SelectionChanged="usersLV_SelectionChanged" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="30,201,30,33" MaxHeight="150">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="Auto"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <DatePicker x:Name="endDatePicker" HorizontalAlignment="Left" Margin="481,142,0,0" VerticalAlignment="Top"/>
+            <DatePicker x:Name="startDatePicker" HorizontalAlignment="Left" Margin="30,142,0,0" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Left" Margin="32,121,0,0" FontFamily="Impact" FontSize="12" TextWrapping="Wrap" Text="Дата начала показа" Foreground="Yellow" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Left" Margin="473,121,0,0" FontFamily="Impact" FontSize="12" TextWrapping="Wrap" Text="Дата окончания показа" Foreground="Yellow" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" FontFamily="Impact" FontSize="12" Text="Список активных пользователей" Foreground="Yellow" VerticalAlignment="Center"/>
+            <Button x:Name="backBTN" Content="Вернуться" Click="backBTN_Click" FontFamily="Impact" FontSize="12" Foreground="AliceBlue" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.709,0.281">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="Cyan"/>
+                        <Setter Property="BorderBrush" Value="DarkCyan"/>
+                        <Setter Property="BorderThickness" Value="2"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border Background="{TemplateBinding Background}"
+                                        BorderBrush="{TemplateBinding BorderBrush}"
+                                        BorderThickness="{TemplateBinding BorderThickness}"
+                                        CornerRadius="5">
+                                        <ContentPresenter HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </Grid>
+    </Viewbox>
 </Window>

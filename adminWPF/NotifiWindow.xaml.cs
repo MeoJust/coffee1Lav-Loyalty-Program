@@ -18,14 +18,20 @@ namespace adminWPF
             _service = service;
             LoadLoyaltyObjects();
 
-            idTXT.Clear();
-            headerTXT.Clear();
-            bodyTXT.Clear();
+            idTXT.Text = "Выберите карту из списка или введите вручную";
+            headerTXT.Text = "Заголовок уведомления";
+            bodyTXT.Text = "Текст уведомления";
         }
 
         //Обработка нажатия на кнопку
         private void sendBTN_Click(object sender, RoutedEventArgs e) {
             SendMessage();
+        }
+
+        private void backBTN_Click(object sender, RoutedEventArgs e) {
+            ChooseActionWindow chooseWindow = new ChooseActionWindow();
+            chooseWindow.Show();
+            Close();
         }
 
         //Отправка уведомления

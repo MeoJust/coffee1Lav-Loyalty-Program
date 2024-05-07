@@ -5,11 +5,40 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:adminWPF"
         mc:Ignorable="d"
-        Title="LoginWindow" Height="450" Width="800">
-    <Grid>
-        <TextBox x:Name="loginTXT" HorizontalAlignment="Center" Margin="0,102,0,0" TextWrapping="Wrap" Text="login" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="passwordTXT" HorizontalAlignment="Center" Margin="0,143,0,0" TextWrapping="Wrap" Text="password" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="loginBTN" Content="let me in!" Click="loginBTN_Click" HorizontalAlignment="Left" Margin="360,197,0,0" VerticalAlignment="Top"/>
-
-    </Grid>
+        Title="LoginWindow" Height="720" Width="1280">
+    <Window.Background>
+        <ImageBrush ImageSource="D:\_art\_csharp\coffeOneLoveProj\_background\02_loginIMG.jpg"/>
+    </Window.Background>
+    <Viewbox>
+        <Grid>
+            <TextBox x:Name="loginTXT" HorizontalAlignment="Left" Margin="220,90,0,0" TextWrapping="Wrap" Text="login" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="passwordTXT" HorizontalAlignment="Left" Margin="220,131,0,0" TextWrapping="Wrap" Text="password" VerticalAlignment="Top" Width="120"/>
+            <Button x:Name="loginBTN" Content="Продолжить" Click="loginBTN_Click" FontFamily="Impact" FontSize="12" Foreground="AliceBlue" HorizontalAlignment="Left" Margin="360,197,0,0" VerticalAlignment="Top">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="Cyan"/>
+                        <Setter Property="BorderBrush" Value="DarkCyan"/>
+                        <Setter Property="BorderThickness" Value="2"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="5">
+                                        <!-- Измените значение здесь, чтобы управлять закруглением -->
+                                        <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <TextBlock HorizontalAlignment="Left" Margin="165,10,0,0" TextWrapping="Wrap" Text="" TextAlignment="Center" FontFamily="Impact" FontSize="22" Foreground="Yellow" VerticalAlignment="Top">
+                Введите логин и пароль
+            </TextBlock>
+        </Grid>
+    </Viewbox>
 </Window>

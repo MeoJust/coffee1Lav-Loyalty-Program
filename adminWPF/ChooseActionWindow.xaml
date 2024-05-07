@@ -5,11 +5,87 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:adminWPF"
         mc:Ignorable="d"
-        Title="ChooseActionWindow" Height="450" Width="800">
-    <Grid>
-        <Button x:Name="messBTN" Content="mess" Click="messBTN_Click" HorizontalAlignment="Left" Margin="522,217,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="pointsBTN" Content="points" Click="pointsBTN_Click" HorizontalAlignment="Left" Margin="522,307,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="haliavaBTN" Content="haliava" Click="haliavaBTN_Click" HorizontalAlignment="Left" Margin="522,263,0,0" VerticalAlignment="Top"/>
-
-    </Grid>
+        Title="ChooseActionWindow" Height="720" Width="1280">
+    <Window.Background>
+        <ImageBrush ImageSource="D:\_art\_csharp\coffeOneLoveProj\_background\03_chooseIMG.jpg"/>
+    </Window.Background>
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="Impact"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+    </Window.Resources>
+    <Viewbox>
+        <Grid>
+            <Button x:Name="messBTN" Content="Отправить сообщение" Click="messBTN_Click" FontFamily="Impact" FontSize="12" Foreground="AliceBlue" HorizontalAlignment="Left" Margin="180,265,0,0" VerticalAlignment="Top">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="Cyan"/>
+                        <Setter Property="BorderBrush" Value="DarkCyan"/>
+                        <Setter Property="BorderThickness" Value="2"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="5">
+                                        <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button x:Name="pointsBTN" Content="Бонусные баллы" Click="pointsBTN_Click" FontFamily="Impact" FontSize="12" Foreground="AliceBlue" HorizontalAlignment="Left" Margin="426,265,0,0" VerticalAlignment="Top">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="Cyan"/>
+                        <Setter Property="BorderBrush" Value="DarkCyan"/>
+                        <Setter Property="BorderThickness" Value="2"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="5">
+                                        <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button x:Name="haliavaBTN" Content="Бесплатная кружка" Click="haliavaBTN_Click" FontFamily="Impact" FontSize="12" Foreground="AliceBlue" HorizontalAlignment="Left" Margin="312,265,0,0" VerticalAlignment="Top">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="Cyan"/>
+                        <Setter Property="BorderBrush" Value="DarkCyan"/>
+                        <Setter Property="BorderThickness" Value="2"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="5">
+                                        <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="" TextAlignment="Center" FontFamily="Impact" FontSize="22" Foreground="Yellow" VerticalAlignment="Top">
+                Выберите действие
+            </TextBlock>
+        </Grid>
+    </Viewbox>
 </Window>

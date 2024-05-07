@@ -19,8 +19,8 @@ namespace adminWPF
             _password = File.ReadAllText(_passwordPath);
             _login = File.ReadAllText(_loginPath);
 
-            loginTXT.Text = "";
-            passwordTXT.Text = "";
+            loginTXT.Text = "Логин";
+            passwordTXT.Text = "Пароль";
         }
 
         private void loginBTN_Click(object sender, RoutedEventArgs e) {

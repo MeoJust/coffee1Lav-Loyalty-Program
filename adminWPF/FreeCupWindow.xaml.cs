@@ -16,13 +16,19 @@ namespace adminWPF
             _service=service;
             LoadLoyaltyObjects();
 
-            idTXT.Clear();
-            headerTXT.Clear();
-            bodyTXT.Clear();
+            idTXT.Text = "Выберите карту из списка или введите вручную";
+            headerTXT.Text = "До бесплатной чашки кофе осталось:";
+            bodyTXT.Text = "☕☕☕☕☕";
         }
 
         private void sendBTN_Click(object sender, RoutedEventArgs e) {
             SendReplasibleMessage();
+        }
+
+        private void backBTN_Click(object sender, RoutedEventArgs e) {
+            ChooseActionWindow chooseWindow = new ChooseActionWindow();
+            chooseWindow.Show();
+            Close();
         }
 
         public void SendReplasibleMessage() {
@@ -58,8 +64,8 @@ namespace adminWPF
                 //Вывод сообщения об успехе
                 MessageBox.Show("Сообщение успешно отправлено!", "Есть!", MessageBoxButton.OK, MessageBoxImage.Information);
                 //Сброс текстовых полей
-                headerTXT.Clear();
-                bodyTXT.Clear();
+                headerTXT.Text = "До бесплатной чашки кофе осталось:";
+                bodyTXT.Text = "☕☕☕☕☕";
             }
             catch (Exception ex)
             {

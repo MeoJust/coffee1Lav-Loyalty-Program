@@ -16,8 +16,8 @@ namespace adminWPF
             _service = service;
             LoadLoyaltyObjects();
 
-            idTXT.Clear();
-            pointsTXT.Clear();
+            idTXT.Text = "Выберите карту из списка или введите вручную";
+            pointsTXT.Text = "Число баллов";
         }
 
         private void addPointsBTN_Click(object sender, RoutedEventArgs e) {
@@ -37,6 +37,12 @@ namespace adminWPF
                 // Сообщите пользователю, что введено недопустимое значение
                 MessageBox.Show("Цыфры нада!!", "Неверные данные!", MessageBoxButton.OK, MessageBoxImage.Error);
             }
+        }
+
+        private void backBTN_Click(object sender, RoutedEventArgs e) { 
+            ChooseActionWindow chooseWindow = new ChooseActionWindow();
+            chooseWindow.Show();
+            Close();
         }
 
         private void subPointsBTN_Click(object sender, RoutedEventArgs e) {
