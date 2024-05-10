@@ -16,7 +16,13 @@
     <Compile Update="FreeCupWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="LoginWindow.xaml.cs">
+    <Compile Update="LoginWindowOld.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="windows\LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="windows\MainWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="WelcomeWindow.xaml.cs">
@@ -33,10 +39,22 @@
     <Page Update="FreeCupWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="LoginWindow.xaml">
+    <Page Update="LoginWindowOld.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="themes\TextBoxTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="windows\LoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="windows\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="NotifiWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="themes\MenuButtonTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="WelcomeWindow.xaml">

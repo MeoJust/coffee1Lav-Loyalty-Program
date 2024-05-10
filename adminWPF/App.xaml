@@ -2,8 +2,14 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:adminWPF"
-             StartupUri="WelcomeWindow.xaml">
+             StartupUri="windows/LoginWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/themes/MenuButtonTheme.xaml" />
+                <ResourceDictionary Source="/themes/TextBoxTheme.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

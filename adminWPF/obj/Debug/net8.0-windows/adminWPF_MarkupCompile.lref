@@ -1,9 +1,11 @@
 ﻿
-
+FD:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\App.xaml;;
 FD:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\BonusPointsWindow.xaml;;
 FD:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\ChooseActionWindow.xaml;;
 FD:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\FreeCupWindow.xaml;;
-FD:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\LoginWindow.xaml;;
+FD:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\LoginWindowOld.xaml;;
 FD:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\NotifiWindow.xaml;;
 FD:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\WelcomeWindow.xaml;;
+FD:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\windows\LoginWindow.xaml;;
+FD:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\windows\MainWindow.xaml;;
 

@@ -3,22 +3,29 @@ using Google.Apis.Walletobjects.v1;
 using Google;
 using System.Windows;
 using System.Windows.Controls;
+using System.Collections.Generic;
 
 namespace adminWPF
 {
     public partial class FreeCupWindow : Window
     {
         private WalletobjectsService _service;
-
+        private APISet _apiSet;
+        private ReplasibleMessages _replasibleMessages;
 
         public FreeCupWindow(WalletobjectsService service) {
             InitializeComponent();
             _service=service;
+
+            _apiSet = new APISet("D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\saKey.json");
+            _replasibleMessages = new ReplasibleMessages(_apiSet.WalletService);
+
             LoadLoyaltyObjects();
 
             idTXT.Text = "Выберите карту из списка или введите вручную";
-            headerTXT.Text = "До бесплатной чашки кофе осталось:";
-            bodyTXT.Text = "☕☕☕☕☕";
+            headerTXT.Text = "";
+            bodyTXT.Text = "";
+            MessageBodyContent();
         }
 
         private void sendBTN_Click(object sender, RoutedEventArgs e) {
@@ -33,8 +40,8 @@ namespace adminWPF
 
         public void SendReplasibleMessage() {
             //Вызов подключения к Google Wallet API
-            APISet apiSet = new APISet("D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\saKey.json");
-            ReplasibleMessages replasibleMessages = new ReplasibleMessages(apiSet.WalletService);
+            //APISet apiSet = new APISet("D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\saKey.json");
+            //ReplasibleMessages replasibleMessages = new ReplasibleMessages(apiSet.WalletService);
 
             //Настройка сообщения
             Message message = new Message
@@ -57,15 +64,13 @@ namespace adminWPF
             };
 
             //Отправка уведомления по ID
-            replasibleMessages.ReplaceMessageInLoyaltyObject(idTXT.Text, message, headerTXT.Text);
+            _replasibleMessages.ReplaceMessageInLoyaltyObject(idTXT.Text, message, headerTXT.Text);
 
             try
             {
                 //Вывод сообщения об успехе
                 MessageBox.Show("Сообщение успешно отправлено!", "Есть!", MessageBoxButton.OK, MessageBoxImage.Information);
-                //Сброс текстовых полей
-                headerTXT.Text = "До бесплатной чашки кофе осталось:";
-                bodyTXT.Text = "☕☕☕☕☕";
+                MessageBodyContent();
             }
             catch (Exception ex)
             {
@@ -108,6 +113,76 @@ namespace adminWPF
             if (usersLV.SelectedItem is LoyaltyObject selectedLoyaltyObject)
             {
                 idTXT.Text = selectedLoyaltyObject.Id;
+                // Получаем тело текущего сообщения для выбранного объекта карты.
+                UpdateBodyTextForSelectedLoyaltyObject(selectedLoyaltyObject);
+            }
+        }
+
+        // Этот метод обновляет bodyTXT.Text на основе выбранного объекта карты.
+        private void UpdateBodyTextForSelectedLoyaltyObject(LoyaltyObject loyaltyObject) {
+            // Найти текущее сообщение на основе какого-то критерия, например, по заголовку.
+            Message currentMessage = loyaltyObject.Messages?.FirstOrDefault(m => m.Header == headerTXT.Text);
+            // Проверяем, найдено ли сообщение.
+            if (currentMessage != null)
+            {
+                // Обновляем bodyTXT.Text на основе текущего сообщения.
+                bodyTXT.Text = currentMessage.Body;
+            }
+            else
+            {
+                // Если текущее сообщение не найдено, сбрасываем bodyTXT.Text.
+                bodyTXT.Text = "";
+            }
+        }
+
+        private void MessageBodyContent() {
+            // Выбранный объект карты.
+            LoyaltyObject selectedLoyaltyObject = usersLV.SelectedItem as LoyaltyObject;
+            if (selectedLoyaltyObject != null)
+            {
+                // Получить тело текущего сообщения для выбранного объекта карты.
+                string messageBody = _replasibleMessages.GetMessageBody(selectedLoyaltyObject.Id, "Акция! Каждая шестая чашка кофе будет бесплатной!");
+
+                if (!string.IsNullOrEmpty(messageBody)) // Убедитесь, что messageBody не пусто
+                {
+                    // Теперь bodyTXT.Text будет обновляться напрямую из messageBody.
+                    if (messageBody == "☕☕☕☕☕")
+                    {
+                        headerTXT.Text = "Акция! Каждая шестая чашка кофе будет бесплатной!";
+                        bodyTXT.Text = "☕☕☕☕";
+                    }
+                    else if (messageBody == "☕☕☕☕")
+                    {
+                        headerTXT.Text = "Акция! Каждая шестая чашка кофе будет бесплатной!";
+                        bodyTXT.Text = "☕☕☕";
+                    }
+                    else if (messageBody == "☕☕☕")
+                    {
+                        headerTXT.Text = "Акция! Каждая шестая чашка кофе будет бесплатной!";
+                        bodyTXT.Text = "☕☕";
+                    }
+                    else if (messageBody == "☕☕")
+                    {
+                        headerTXT.Text = "Акция! Каждая шестая чашка кофе будет бесплатной!";
+                        bodyTXT.Text = "☕";
+                    }
+                    else if (messageBody == "☕")
+                    {
+                        headerTXT.Text = "Акция! Каждая шестая чашка кофе будет бесплатной!";
+                        bodyTXT.Text = "Поздравляем! Следующая чашка за наш счет!";
+                    }
+                    else
+                    {
+                        headerTXT.Text = "Акция! Каждая шестая чашка кофе будет бесплатной!";
+                        bodyTXT.Text = messageBody;
+                    }
+                }
+                else
+                {
+                    // Если messageBody пусто, установите значение по умолчанию или покажите сообщение об ошибке.
+                    headerTXT.Text = "Акция! Каждая шестая чашка кофе будет бесплатной!";
+                    bodyTXT.Text = "☕☕☕☕☕";
+                }
             }
         }
     }

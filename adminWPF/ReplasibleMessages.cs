@@ -8,6 +8,8 @@ namespace adminWPF
     {
         private readonly WalletobjectsService _service;
 
+        string _messageBody;
+
         //Создание конструктора
         public ReplasibleMessages(WalletobjectsService service) {
             _service = service;
@@ -31,6 +33,7 @@ namespace adminWPF
                     var existingMessage = loyaltyObject.Messages.FirstOrDefault(m => m.Header == messageHeaderToReplace);
                     if (existingMessage != null)
                     {
+                        _messageBody = existingMessage.Body;
                         // Удаляем существующее сообщение
                         loyaltyObject.Messages.Remove(existingMessage);
                     }
@@ -46,6 +49,24 @@ namespace adminWPF
             {
                 //Вывод сообщения об ошибке
                 Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+        }
+
+        public string GetMessageBody(string objectId, string messageHeader) {
+            try
+            {
+                // Получение объекта карты по ID
+                LoyaltyObject loyaltyObject = _service.Loyaltyobject.Get(objectId).Execute();
+
+                // Поиск сообщения по заголовку
+                var message = loyaltyObject.Messages?.FirstOrDefault(m => m.Header == messageHeader);
+                return message?.Body; // Возвращает тело найденного сообщения или null, если сообщение не найдено
+            }
+            catch (GoogleApiException ex)
+            {
+                // Вывод сообщения об ошибке
+                Console.WriteLine($"An error occurred: {ex.Message}");
+                return null; // В случае ошибки возвращаем null
             }
         }
     }
