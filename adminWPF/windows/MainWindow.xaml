@@ -15,7 +15,7 @@
     <Window.DataContext>
         <VM:MainVM/>
     </Window.DataContext>
-    
+
 
     <Grid>
 
@@ -50,34 +50,41 @@
                 <StackPanel Grid.Row="1">
 
 
-                    <RadioButton Content="Бонусы"
+                    <RadioButton x:Name="bonusBTN"
+                        Content="Бонусы"
                              Height="25"
                              Foreground="Yellow"
                              IsChecked="True"
                              FontFamily="comic sans ms"
                              FontSize ="17"
+                                 Click="bonusBTN_Click"
                              Style="{StaticResource MenuButtonTheme}"
                                  Command="{Binding BonusVC}"/>
 
-                    <RadioButton Content="Уведомления"
+                    <RadioButton x:Name="notifiBTN"
+                        Content="Уведомления"
                              Height="25"
                              Foreground="Yellow"
                              FontFamily="comic sans ms"
                              FontSize ="17"
+                                 Click="notifiBTN_Click"
                              Style="{StaticResource MenuButtonTheme}"
                                  Command="{Binding NotifiVC}"/>
 
-                    <RadioButton Content="Выход"
+                    <RadioButton x:Name="exitBTN"
+                        Content="Выход"
                              Height="25"
                              Foreground="Yellow"
                              FontFamily="comic sans ms"
                              FontSize ="17"
+                                 Click="exitBTN_Click"
                              Style="{StaticResource MenuButtonTheme}"
                                  Command="{Binding ExitVC}"/>
 
                 </StackPanel>
 
-                <TextBlock Text="Окно"
+                <TextBlock x:Name="lableTXT"
+                    Text="Бонусы"
                        FontFamily="comic sans ms"
                        FontSize ="22"
                        Foreground="Wheat"
@@ -85,8 +92,8 @@
                 Width="250"
                      Height="40"
                      Background="Transparent"
-                     HorizontalAlignment="Left"
-                     Margin="10"
+                     HorizontalAlignment="Center"
+                     Margin="0,13,0,22"
                      Grid.Column="1"/>
 
                 <ContentControl
@@ -123,12 +130,24 @@
                 FontFamily="comic sans ms"
                 FontSize="12"
                 Height="46" Width="280"/>
-                
+
                 <ContentControl x:Name="contentControl"
                 Grid.Row ="1"
                 Grid.Column="1"
                 Margin="10"
                 Content="{Binding CurrentView}"/>
+                <TextBlock x:Name="contentTXT"
+                    Text="начисление и снятие бонусов"
+                    FontFamily="comic sans ms"
+                    FontSize ="12"
+                    Foreground="Wheat"
+                    TextAlignment="Center"
+                    Width="350"
+                    Height="40"
+                    Background="Transparent"
+                    HorizontalAlignment="Center"
+                    Margin="0,45,0,515"
+                    Grid.Column="1" Grid.RowSpan="2"/>
 
             </Grid>
         </Border>

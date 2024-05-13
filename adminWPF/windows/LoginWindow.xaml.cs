@@ -55,5 +55,9 @@ namespace adminWPF.windows
             }
             MessageBox.Show("Неверный логин или пароль");
         }
+
+        private void exitBTN_Click(object sender, RoutedEventArgs e) {
+            Application.Current.Shutdown();
+        }
     }
 }

@@ -7,7 +7,23 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="600">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,332,0,0" VerticalAlignment="Top"/>
+        <Button Content="ВЫХОД" 
+                HorizontalAlignment="Left" 
+                Margin="190,285,0,0" 
+                FontFamily="comic sans ms"
+                FontWeight="Bold"
+                Click="exitBTN_Click"
+                Foreground="Red"
+                Style="{StaticResource ButtonTheme}"
+                VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" 
+                   Margin="62,162,0,0" 
+                   TextWrapping="Wrap" 
+                   FontFamily="comic sans ms"
+                   Foreground="Wheat"
+                   FontSize="20"
+                   Text="Вы уверены, что хотите выйти?" 
+                   VerticalAlignment="Top"/>
 
     </Grid>
 </UserControl>

@@ -9,16 +9,16 @@
     <Grid>
         <TextBlock x:Name="idTXT" 
             HorizontalAlignment="Left" 
-                   Margin="213,91,0,0" 
+                   Margin="190,79,0,0" 
                    TextWrapping="Wrap" 
-                   Text="user id" 
+                   Text="" 
                    FontFamily="comic sans ms"
                    FontSize="20"
                    Foreground="Wheat"
                    VerticalAlignment="Top"/>
         <TextBox x:Name="headerTXT"
             HorizontalAlignment="Left" 
-                 Margin="45,163,0,0" 
+                 Margin="31,152,0,0" 
                  TextWrapping="Wrap" 
                  VerticalAlignment="Top" 
                  Width="440" 
@@ -27,9 +27,9 @@
                  />
         <TextBox x:Name="bodyTXT"
             HorizontalAlignment="Left" 
-                 Margin="45,217,0,0" 
+                 Margin="31,0,0,0" 
                  TextWrapping="Wrap" 
-                 VerticalAlignment="Top" 
+                 VerticalAlignment="Center" 
                  Width="440" 
                  Style="{StaticResource TextBoxTheme}"
                  Tag="Текст уведомления"
@@ -37,11 +37,30 @@
         <Button x:Name="sendBTN"
             Content="Отправить" 
                 HorizontalAlignment="Left" 
-                Margin="237,329,0,0" 
+                Margin="223,318,0,0" 
                 VerticalAlignment="Top"
+                FontFamily="comic sans ms"
+                Foreground="#99bf28"
+                Style="{StaticResource ButtonTheme}"
                 Click="sendBTN_Click"/>
-        <DatePicker x:Name="startDatePicker" HorizontalAlignment="Left" Margin="33,171,0,0" VerticalAlignment="Top"/>
-        <DatePicker x:Name="endDatePicker" HorizontalAlignment="Left" Margin="33,225,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="startDatePicker" HorizontalAlignment="Left" Margin="10,159,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="endDatePicker" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center"/>
+        
+        <TextBlock HorizontalAlignment="Left" 
+                   Margin="10,130,0,0" 
+                   TextWrapping="Wrap" 
+                   FontFamily="comic sans ms"
+                   Foreground="Wheat"
+                   Text="дата начала показа" 
+                   VerticalAlignment="Top"/>
+        
+        <TextBlock HorizontalAlignment="Left" 
+                   Margin="10,189,0,0" 
+                   TextWrapping="Wrap" 
+                   FontFamily="comic sans ms"
+                   Foreground="Wheat"
+                   Text="дата окончания показа"
+                   VerticalAlignment="Top"/>
 
     </Grid>
 </UserControl>

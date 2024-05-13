@@ -15,6 +15,7 @@ namespace adminWPF.windows
 
         BonusView _bonusView;
         NotifiView _notifiView;
+        ExitView _exitView;
 
         public MainWindow(WalletobjectsService service) {
             InitializeComponent();
@@ -33,7 +34,9 @@ namespace adminWPF.windows
             _notifiView = new NotifiView();
             _notifiView.NotifiSendAction = SendMessage;
 
-            contentControl.Content = _bonusView; 
+            _exitView = new ExitView();
+
+            contentControl.Content = _bonusView;
         }
 
         //Вывод списка объектов
@@ -73,18 +76,16 @@ namespace adminWPF.windows
             }
         }
 
-        //private void exitBTN_Click(object sender, EventArgs e) {
-        //    Application.Current.Shutdown();
-        //}
-
         private void Window_MouseDown(object sender, MouseButtonEventArgs e) {
             if (e.LeftButton == MouseButtonState.Pressed)
             {
-                this.DragMove();
+                DragMove();
             }
         }
 
         private void AddPoints() {
+            IdTXTCheck();
+
             string objectId = idTXT.Text;
             int pointsToAdd;
 
@@ -104,6 +105,8 @@ namespace adminWPF.windows
         }
 
         private void RemovePoints() {
+            IdTXTCheck();
+
             string objectId = idTXT.Text;
             int pointsToAdd;
 
@@ -117,19 +120,26 @@ namespace adminWPF.windows
             }
             else
             {
-                // Сообщите пользователю, что введено недопустимое значение
                 MessageBox.Show("Используйте числа!", "Неверные данные!", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
         //Отправка уведомления
         public void SendMessage() {
+            IdTXTCheck();
+
             //Вызов подключения к Google Wallet API
             APISet apiSet = new APISet("D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\saKey.json");
             NotifiSender notifiSender = new NotifiSender(apiSet.WalletService);
 
             System.DateTime? startDate = _notifiView.startDatePicker.SelectedDate;
             System.DateTime? endDate = _notifiView.endDatePicker.SelectedDate;
+
+            if(startDate == null || endDate == null)
+            {
+                MessageBox.Show("Укажите дату начала и оканчания показа уведомления!", "Неверные данные!", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
 
             //Настройка сообщения
             Message message = new Message
@@ -168,5 +178,30 @@ namespace adminWPF.windows
             }
         }
 
+        private void IdTXTCheck() {
+            if (idTXT.Text == "Выберите карту из списка")
+            {
+                MessageBox.Show("Карта не выбрана!");
+                return;
+            }
+        }
+
+        private void bonusBTN_Click(object sender, RoutedEventArgs e) {
+            contentControl.Content = _bonusView;
+            lableTXT.Text = "Бонусы";
+            contentTXT.Text = "начисление и снятие бонусов";
+        }
+
+        private void notifiBTN_Click(object sender, RoutedEventArgs e) {
+            contentControl.Content = _notifiView;
+            lableTXT.Text = "Уведомления";
+            contentTXT.Text = "отправка уведомлений";
+        }
+
+        private void exitBTN_Click(object sender, RoutedEventArgs e) {
+            contentControl.Content = _exitView;
+            lableTXT.Text = "Выход";
+            contentTXT.Text = "";
+        }
     }
 }

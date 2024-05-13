@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\bonusview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:views\\bonusview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|d:\\_art\\_csharp\\coffeoneloveproj\\apps\\adminwpf\\core\\apiset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:core\\apiset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|d:\\_art\\_csharp\\coffeoneloveproj\\apps\\adminwpf\\views\\notifiview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:views\\notifiview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|d:\\_art\\_csharp\\coffeoneloveproj\\apps\\adminwpf\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\bonusview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:views\\bonusview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\notifiview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:views\\notifiview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\notifiview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:views\\notifiview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:windows\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:windows\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\exitview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:views\\exitview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\exitview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:views\\exitview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\bonusview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -30,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +62,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "APISet.cs",
+              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\APISet.cs",
+              "RelativeDocumentMoniker": "core\\APISet.cs",
+              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\APISet.cs",
+              "RelativeToolTip": "core\\APISet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T22:45:30.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExitView.xaml.cs",
+              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\ExitView.xaml.cs",
+              "RelativeDocumentMoniker": "views\\ExitView.xaml.cs",
+              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\ExitView.xaml.cs",
+              "RelativeToolTip": "views\\ExitView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T21:44:51.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExitView.xaml",
+              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\ExitView.xaml",
+              "RelativeDocumentMoniker": "views\\ExitView.xaml",
+              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\ExitView.xaml",
+              "RelativeToolTip": "views\\ExitView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-13T21:42:05.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "windows\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "windows\\LoginWindow.xaml.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T21:34:31.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "windows\\LoginWindow.xaml",
+              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\LoginWindow.xaml",
+              "RelativeToolTip": "windows\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-13T21:31:44.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "windows\\MainWindow.xaml",
+              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\MainWindow.xaml",
+              "RelativeToolTip": "windows\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-13T21:19:33.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "NotifiView.xaml.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\NotifiView.xaml.cs",
               "RelativeDocumentMoniker": "views\\NotifiView.xaml.cs",
@@ -46,37 +141,34 @@
               "RelativeToolTip": "views\\NotifiView.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T08:19:09.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T08:19:09.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NotifiView.xaml",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\NotifiView.xaml",
               "RelativeDocumentMoniker": "views\\NotifiView.xaml",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\NotifiView.xaml",
               "RelativeToolTip": "views\\NotifiView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-12T18:09:29.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T18:09:29.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "BonusView.xaml.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\BonusView.xaml.cs",
               "RelativeDocumentMoniker": "views\\BonusView.xaml.cs",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\BonusView.xaml.cs",
               "RelativeToolTip": "views\\BonusView.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T08:19:07.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T08:19:07.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "BonusView.xaml",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\BonusView.xaml",
               "RelativeDocumentMoniker": "views\\BonusView.xaml",
@@ -87,13 +179,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "windows\\MainWindow.xaml.cs",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\MainWindow.xaml.cs",
               "RelativeToolTip": "windows\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAADwvxoAAABWAAAA",
+              "ViewState": "AQIAAKsAAAAAAAAAAADwv78AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T18:11:58.46Z",
               "EditorCaption": ""

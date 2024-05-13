@@ -63,14 +63,29 @@
                          Style="{StaticResource TextBoxTheme}"
                          Tag="пароль"/>
 
-                    <Button x:Name="loginBTN" 
+                <Button x:Name="loginBTN" 
                 Content="Войти" 
                 Click="loginBTN_Click" 
                 HorizontalAlignment="Center" 
                 Margin="0,111,0,0" 
                 VerticalAlignment="Top"
                 Height="25"
-                Foreground="#18c7ad"
+                Foreground="#99bf28"
+                Style="{StaticResource ButtonTheme}"
+                FontFamily="comic sans ms"
+                FontSize ="17" 
+                Background="Wheat"/>
+
+                    <Button x:Name="exitBTN" 
+                Content="ВЫХОД"
+                Click="exitBTN_Click" 
+                HorizontalAlignment="Center" 
+                Margin="555,45,0,0" 
+                VerticalAlignment="Top"
+                Height="25"
+                Foreground="Red"
+                FontWeight="Bold"
+                Style="{StaticResource ButtonTheme}"
                 FontFamily="comic sans ms"
                 FontSize ="17" 
                 Background="Wheat"/>
