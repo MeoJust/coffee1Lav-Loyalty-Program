@@ -7,16 +7,13 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="BonusPointsWindow.xaml.cs">
+    <Compile Update="views\BonusView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ChooseActionWindow.xaml.cs">
+    <Compile Update="views\ExitView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="FreeCupWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="LoginWindowOld.xaml.cs">
+    <Compile Update="views\NotifiView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="windows\LoginWindow.xaml.cs">
@@ -25,24 +22,21 @@
     <Compile Update="windows\MainWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="WelcomeWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="BonusPointsWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="ChooseActionWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="FreeCupWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="LoginWindowOld.xaml">
+    <Page Update="themes\ButtonTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="themes\TextBoxTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\BonusView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\ExitView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\NotifiView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="windows\LoginWindow.xaml">
@@ -51,13 +45,7 @@
     <Page Update="windows\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="NotifiWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="themes\MenuButtonTheme.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="WelcomeWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

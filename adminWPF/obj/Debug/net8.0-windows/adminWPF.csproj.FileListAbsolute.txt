@@ -1,47 +1,43 @@
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\bin\Debug\net8.0-windows\adminWPF.exe
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\bin\Debug\net8.0-windows\adminWPF.deps.json
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\bin\Debug\net8.0-windows\adminWPF.runtimeconfig.json
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\bin\Debug\net8.0-windows\adminWPF.dll
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\bin\Debug\net8.0-windows\adminWPF.pdb
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\bin\Debug\net8.0-windows\Google.Apis.dll
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\bin\Debug\net8.0-windows\Google.Apis.Auth.dll
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\bin\Debug\net8.0-windows\Google.Apis.Core.dll
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\bin\Debug\net8.0-windows\Google.Apis.Walletobjects.v1.dll
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\bin\Debug\net8.0-windows\System.Management.dll
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\adminWPF.csproj.AssemblyReference.cache
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\themes\MenuButtonTheme.baml
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\BonusPointsWindow.g.cs
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\ChooseActionWindow.g.cs
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\FreeCupWindow.g.cs
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\NotifiWindow.g.cs
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\WelcomeWindow.g.cs
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\App.g.cs
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\adminWPF_MarkupCompile.cache
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\adminWPF_MarkupCompile.lref
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\App.baml
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\BonusPointsWindow.baml
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\ChooseActionWindow.baml
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\FreeCupWindow.baml
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\NotifiWindow.baml
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\WelcomeWindow.baml
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\adminWPF.g.resources
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\adminWPF.GeneratedMSBuildEditorConfig.editorconfig
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\adminWPF.AssemblyInfoInputs.cache
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\adminWPF.AssemblyInfo.cs
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\adminWPF.csproj.CoreCompileInputs.cache
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\adminWPF.sourcelink.json
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\adminWPF.csproj.Up2Date
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\adminWPF.dll
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\refint\adminWPF.dll
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\adminWPF.pdb
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\adminWPF.genruntimeconfig.cache
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\ref\adminWPF.dll
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\windows\MainWindow.g.cs
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\windows\MainWindow.baml
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\LoginWindowOld.g.cs
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\windows\LoginWindow.g.cs
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\LoginWindowOld.baml
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\windows\LoginWindow.baml
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\themes\TextBoxTheme.baml
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\bin\Debug\net8.0-windows\adminWPF.exe
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\bin\Debug\net8.0-windows\adminWPF.deps.json
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\bin\Debug\net8.0-windows\adminWPF.runtimeconfig.json
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\bin\Debug\net8.0-windows\adminWPF.dll
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\bin\Debug\net8.0-windows\adminWPF.pdb
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\bin\Debug\net8.0-windows\Google.Apis.dll
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\bin\Debug\net8.0-windows\Google.Apis.Auth.dll
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\bin\Debug\net8.0-windows\Google.Apis.Core.dll
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\bin\Debug\net8.0-windows\Google.Apis.Walletobjects.v1.dll
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\bin\Debug\net8.0-windows\System.Management.dll
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\adminWPF.csproj.AssemblyReference.cache
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\themes\ButtonTheme.baml
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\themes\MenuButtonTheme.baml
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\themes\TextBoxTheme.baml
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\views\BonusView.g.cs
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\views\ExitView.g.cs
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\views\NotifiView.g.cs
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\windows\LoginWindow.g.cs
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\windows\MainWindow.g.cs
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\App.g.cs
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\adminWPF_MarkupCompile.cache
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\adminWPF_MarkupCompile.lref
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\App.baml
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\views\BonusView.baml
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\views\ExitView.baml
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\views\NotifiView.baml
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\windows\LoginWindow.baml
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\windows\MainWindow.baml
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\adminWPF.g.resources
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\adminWPF.GeneratedMSBuildEditorConfig.editorconfig
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\adminWPF.AssemblyInfoInputs.cache
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\adminWPF.AssemblyInfo.cs
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\adminWPF.csproj.CoreCompileInputs.cache
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\adminWPF.sourcelink.json
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\adminWPF.csproj.Up2Date
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\adminWPF.dll
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\refint\adminWPF.dll
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\adminWPF.pdb
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\adminWPF.genruntimeconfig.cache
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\ref\adminWPF.dll

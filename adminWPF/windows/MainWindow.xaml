@@ -4,12 +4,18 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:adminWPF.windows"
+        xmlns:VM="clr-namespace:adminWPF.vm"
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="920"
     WindowStyle="None"
     ResizeMode="NoResize"
     Background="Transparent"
     AllowsTransparency="True">
+
+    <Window.DataContext>
+        <VM:MainVM/>
+    </Window.DataContext>
+    
 
     <Grid>
 
@@ -32,7 +38,8 @@
                     <RowDefinition/>
                 </Grid.RowDefinitions>
 
-                <TextBlock Text="Работничек"
+                <TextBlock Name="adminTXT"
+                    Text="Работничек"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Center"
                        Foreground="Wheat"
@@ -41,56 +48,32 @@
                        />
 
                 <StackPanel Grid.Row="1">
-                    <RadioButton Content="Главная"
-                             Height="25"
-                             Foreground="Yellow"
-                             FontFamily="comic sans ms"
-                             FontSize ="17"
-                             Style="{StaticResource MenuButtonTheme}"
-                             IsChecked="True"/>
+
 
                     <RadioButton Content="Бонусы"
                              Height="25"
                              Foreground="Yellow"
+                             IsChecked="True"
                              FontFamily="comic sans ms"
                              FontSize ="17"
-                             Style="{StaticResource MenuButtonTheme}"/>
+                             Style="{StaticResource MenuButtonTheme}"
+                                 Command="{Binding BonusVC}"/>
 
                     <RadioButton Content="Уведомления"
                              Height="25"
                              Foreground="Yellow"
                              FontFamily="comic sans ms"
                              FontSize ="17"
-                             Style="{StaticResource MenuButtonTheme}"/>
-
-                    <RadioButton Content="Акция"
-                             Height="25"
-                             Foreground="Yellow"
-                             FontFamily="comic sans ms"
-                             FontSize ="17"
-                             Style="{StaticResource MenuButtonTheme}"/>
-
-                    <RadioButton Content="Статистика"
-                             Height="25"
-                             Foreground="Yellow"
-                             FontFamily="comic sans ms"
-                             FontSize ="17"
-                             Style="{StaticResource MenuButtonTheme}"/>
-
-                    <RadioButton Content="Удаление"
-                             Height="25"
-                             Foreground="Yellow"
-                             FontFamily="comic sans ms"
-                             FontSize ="17"
-                             Style="{StaticResource MenuButtonTheme}"/>
+                             Style="{StaticResource MenuButtonTheme}"
+                                 Command="{Binding NotifiVC}"/>
 
                     <RadioButton Content="Выход"
                              Height="25"
-                             Click="exitBTN_Click"
                              Foreground="Yellow"
                              FontFamily="comic sans ms"
                              FontSize ="17"
-                             Style="{StaticResource MenuButtonTheme}"/>
+                             Style="{StaticResource MenuButtonTheme}"
+                                 Command="{Binding ExitVC}"/>
 
                 </StackPanel>
 
@@ -140,6 +123,12 @@
                 FontFamily="comic sans ms"
                 FontSize="12"
                 Height="46" Width="280"/>
+                
+                <ContentControl x:Name="contentControl"
+                Grid.Row ="1"
+                Grid.Column="1"
+                Margin="10"
+                Content="{Binding CurrentView}"/>
 
             </Grid>
         </Border>

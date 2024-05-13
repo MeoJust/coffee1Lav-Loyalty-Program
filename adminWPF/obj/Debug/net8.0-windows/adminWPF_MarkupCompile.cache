@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\obj\Debug\net8.0-windows\
 adminWPF
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\App.xaml
-10-784591879
+D:\_art\_csharp\coffeOneLoveProj\apps - 18toWork\adminWPF\App.xaml
+8-1775807213
 
-16-681835814
+1982857518
 204-1891529024
-BonusPointsWindow.xaml;ChooseActionWindow.xaml;FreeCupWindow.xaml;LoginWindowOld.xaml;NotifiWindow.xaml;themes\MenuButtonTheme.xaml;themes\TextBoxTheme.xaml;WelcomeWindow.xaml;windows\LoginWindow.xaml;windows\MainWindow.xaml;
+themes\ButtonTheme.xaml;themes\MenuButtonTheme.xaml;themes\TextBoxTheme.xaml;views\BonusView.xaml;views\ExitView.xaml;views\NotifiView.xaml;windows\LoginWindow.xaml;windows\MainWindow.xaml;
 
 False
 

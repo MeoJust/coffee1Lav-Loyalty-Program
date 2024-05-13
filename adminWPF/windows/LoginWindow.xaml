@@ -48,33 +48,34 @@
 
             <StackPanel Grid.Column="1" Grid.Row="1">
 
-                <TextBox TextWrapping="Wrap" 
+                <TextBox x:Name="loginTXT"
+                    TextWrapping="Wrap" 
                          Text="" 
                          Width="120"
                          Margin="0,50,0,0"
                          Style="{StaticResource TextBoxTheme}"
                          Tag="логин"/>
-                <TextBox TextWrapping="Wrap" 
-                    Text="" 
-                    Width="120"
-                         Margin="0,25,0,0"
-                         
-                    Style="{StaticResource TextBoxTheme}"
+                    <TextBox x:Name="passwordTXT"
+                    TextWrapping="Wrap" 
+                         Text="" 
+                         Width="120"
+                         Margin="0,50,0,0"
+                         Style="{StaticResource TextBoxTheme}"
                          Tag="пароль"/>
 
-                <Button x:Name="loginBTN" 
+                    <Button x:Name="loginBTN" 
                 Content="Войти" 
                 Click="loginBTN_Click" 
                 HorizontalAlignment="Center" 
                 Margin="0,111,0,0" 
                 VerticalAlignment="Top"
                 Height="25"
-                Foreground="Yellow"
+                Foreground="#18c7ad"
                 FontFamily="comic sans ms"
                 FontSize ="17" 
                 Background="Wheat"/>
 
-            </StackPanel>
+                </StackPanel>
 
         </Grid>
     </Border>

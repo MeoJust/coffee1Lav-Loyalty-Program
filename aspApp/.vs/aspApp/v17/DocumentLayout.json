@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|d:\\_art\\_csharp\\coffeoneloveproj\\apps\\aspapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\jwtgen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|solutionrelative:jwtgen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|solutionrelative:authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\cardclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|solutionrelative:cardclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\cardobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|solutionrelative:cardobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\cardclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|solutionrelative:cardclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|d:\\_art\\_csharp\\coffeoneloveproj\\apps\\aspapp\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|solutionrelative:controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|solutionrelative:authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\loyaltycardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|solutionrelative:loyaltycardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01B79F18-F9ED-4F85-9C9E-2FB1EA301D21}|aspApp.csproj|solutionrelative:controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T19:15:40.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "LoyaltyCardService.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\LoyaltyCardService.cs",
               "RelativeDocumentMoniker": "LoyaltyCardService.cs",
@@ -58,32 +71,19 @@
               "RelativeToolTip": "LoyaltyCardService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:52:27.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T20:52:27.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "RegisterController.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\Controllers\\RegisterController.cs",
               "RelativeDocumentMoniker": "Controllers\\RegisterController.cs",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\Controllers\\RegisterController.cs",
               "RelativeToolTip": "Controllers\\RegisterController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAUwB8AAAA9AAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwCEAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T19:23:18.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T19:15:40.919Z",
+              "WhenOpened": "2024-04-21T19:23:18.716Z",
               "EditorCaption": ""
             },
             {
@@ -94,40 +94,38 @@
               "RelativeDocumentMoniker": "CardObject.cs",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\CardObject.cs",
               "RelativeToolTip": "CardObject.cs",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAwwI0AAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T20:08:19.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\User.cs",
               "RelativeDocumentMoniker": "User.cs",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\User.cs",
               "RelativeToolTip": "User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T19:13:44.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T19:13:44.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Authorization.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\Authorization.cs",
               "RelativeDocumentMoniker": "Authorization.cs",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\Authorization.cs",
               "RelativeToolTip": "Authorization.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T19:58:29.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T19:58:29.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "JWTGen.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\JWTGen.cs",
               "RelativeDocumentMoniker": "JWTGen.cs",
@@ -140,13 +138,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "CardClass.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\CardClass.cs",
               "RelativeDocumentMoniker": "CardClass.cs",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\CardClass.cs",
               "RelativeToolTip": "CardClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T20:03:31.399Z",
               "EditorCaption": ""

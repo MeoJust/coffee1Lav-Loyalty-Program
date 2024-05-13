@@ -13,7 +13,11 @@
             //Создание класса карты
             cardClass.CreateClass("3388000000022315715", "coffeOneLav");
             //Создание обьекта карты
-            cardObject.CreateObject("3388000000022315715", "coffeOneLav", "1", "2");
+            cardObject.CreateObject("3388000000022315715", "coffeOneLav", "1","2");
+            cardObject.CreateObject("3388000000022315715", "coffeOneLav", "TODELITE","1");
+            cardObject.CreateObject("3388000000022315715", "coffeOneLav", "TODELITE2","1");
+            cardObject.CreateObject("3388000000022315715", "coffeOneLav", "TODELITE3","1");
+
 
             //Вывод списка активных карт
             LoyaltyCardService loyaltyCardService = new LoyaltyCardService(auth.WalletService);
