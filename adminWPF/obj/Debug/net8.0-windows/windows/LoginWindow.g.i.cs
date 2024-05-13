@@ -77,7 +77,7 @@ namespace adminWPF.windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/adminWPF;component/windows/loginwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/adminWPF;V1.0.0.0;component/windows/loginwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\windows\LoginWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -24,7 +24,6 @@ namespace adminWPF.windows
             idTXT.Text = "Выберите карту из списка";
 
             _bonusView = new BonusView();
-            // Здесь вы устанавливаете методы из MainWindow как делегаты для команд в BonusView
             _bonusView.AddPointsCommand = new RelayCommand(param => this.AddPoints());
             _bonusView.SubPointsCommand = new RelayCommand(param => this.RemovePoints());
 
@@ -34,7 +33,7 @@ namespace adminWPF.windows
             _notifiView = new NotifiView();
             _notifiView.NotifiSendAction = SendMessage;
 
-            contentControl.Content = _bonusView; // Установите контент, если это еще не сделано
+            contentControl.Content = _bonusView; 
         }
 
         //Вывод списка объектов

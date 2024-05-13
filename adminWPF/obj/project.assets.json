@@ -377,11 +377,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps - 18toWork\\adminWPF\\adminWPF.csproj",
+      "projectUniqueName": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\adminWPF.csproj",
       "projectName": "adminWPF",
-      "projectPath": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps - 18toWork\\adminWPF\\adminWPF.csproj",
+      "projectPath": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\adminWPF.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps - 18toWork\\adminWPF\\obj\\",
+      "outputPath": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\_progs\\_vs2022\\_sdk\\NuGetPackages"

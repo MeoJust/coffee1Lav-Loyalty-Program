@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OsDfJF2zX1dnZ+/NmIiALfRcZBExAfpd4jhZB1wKZrjQ/HnY4KCU3q1h0Vv4FVjVti79cDLwzXr5JU/u9MkgRw==",
+  "dgSpecHash": "4Q8bbp2xjYJUM74X7+Wt5CsyFPSOcyIQ0wn4Nd8jhBcRRQSMvqvD7xh1o3IAaGjzsP50NMsjgARMGHNGOkKGLA==",
   "success": true,
-  "projectFilePath": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps - 18toWork\\adminWPF\\adminWPF.csproj",
+  "projectFilePath": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\adminWPF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\google.apis\\1.68.0\\google.apis.1.68.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\google.apis.auth\\1.68.0\\google.apis.auth.1.68.0.nupkg.sha512",
