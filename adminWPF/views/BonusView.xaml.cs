@@ -18,7 +18,7 @@ namespace adminWPF.views
             AddPointsCommand = new RelayCommand(AddPoints);
             SubPointsCommand = new RelayCommand(SubPoints);
 
-            this.DataContext = this;
+            DataContext = this;
         }
 
         private void AddPoints(object obj) {

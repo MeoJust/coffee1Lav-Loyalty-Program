@@ -49,7 +49,7 @@ namespace adminWPF.windows
                     MainWindow mainWindow = new MainWindow(_apiSet.WalletService);
                     mainWindow.adminTXT.Text = admin.Name;
                     mainWindow.Show();
-                    this.Close();
+                    Close();
                     return;
                 }
             }

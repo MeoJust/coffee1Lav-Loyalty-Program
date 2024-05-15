@@ -25,8 +25,8 @@ namespace adminWPF.windows
             idTXT.Text = "Выберите карту из списка";
 
             _bonusView = new BonusView();
-            _bonusView.AddPointsCommand = new RelayCommand(param => this.AddPoints());
-            _bonusView.SubPointsCommand = new RelayCommand(param => this.RemovePoints());
+            _bonusView.AddPointsCommand = new RelayCommand(param => AddPoints());
+            _bonusView.SubPointsCommand = new RelayCommand(param => RemovePoints());
 
             _bonusView.AddPointsAction = AddPoints;
             _bonusView.SubPointsAction = RemovePoints;
