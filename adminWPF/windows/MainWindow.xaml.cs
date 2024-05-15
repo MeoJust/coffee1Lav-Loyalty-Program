@@ -132,12 +132,27 @@ namespace adminWPF.windows
             APISet apiSet = new APISet("D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\saKey.json");
             NotifiSender notifiSender = new NotifiSender(apiSet.WalletService);
 
-            System.DateTime? startDate = _notifiView.startDatePicker.SelectedDate;
-            System.DateTime? endDate = _notifiView.endDatePicker.SelectedDate;
+            System.DateTime? startDateCheck = _notifiView.startDatePicker.SelectedDate;
+            System.DateTime? endDateCheck = _notifiView.endDatePicker.SelectedDate;
 
-            if(startDate == null || endDate == null)
+            if(startDateCheck == null || endDateCheck == null)
             {
                 MessageBox.Show("Укажите дату начала и оканчания показа уведомления!", "Неверные данные!", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            if(_notifiView.headerTXT.Text == "" || _notifiView.bodyTXT.Text == "")
+            {
+                MessageBox.Show("Заполните заголовок и текст уведомления!", "Неверные данные!", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            System.DateTime startDate = startDateCheck.Value.Date + new TimeSpan(0, 0, 1);
+            System.DateTime endDate = endDateCheck.Value.Date + new TimeSpan(23, 59, 59);
+
+            if (endDate < System.DateTime.Now)
+            {
+                MessageBox.Show("Дата окончания показа уведомления не может быть в прошлом!", "Неверные данные!", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 
@@ -151,11 +166,11 @@ namespace adminWPF.windows
                 {
                     Start = new Google.Apis.Walletobjects.v1.Data.DateTime
                     {
-                        Date = startDate.Value.ToUniversalTime().ToString("yyyy-MM-dd'T'HH:mm:ss'Z'")
+                        Date = startDate.ToUniversalTime().ToString("yyyy-MM-dd'T'HH:mm:ss'Z'")
                     },
                     End = new Google.Apis.Walletobjects.v1.Data.DateTime
                     {
-                        Date = endDate.Value.ToUniversalTime().ToString("yyyy-MM-dd'T'HH:mm:ss'Z'")
+                        Date = endDate.ToUniversalTime().ToString("yyyy-MM-dd'T'HH:mm:ss'Z'")
                     }
                 }
             };
