@@ -156,6 +156,12 @@ namespace adminWPF.windows
                 return;
             }
 
+            if (startDate < endDate)
+            {
+                MessageBox.Show("Дата окончания показа уведомления не может быть раньше даты начала!", "Неверные данные!", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
             //Настройка сообщения
             Message message = new Message
             {
