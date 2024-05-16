@@ -63,7 +63,6 @@ D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\views\No
 D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\windows\LoginWindow.g.cs
 D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\windows\MainWindow.g.cs
 D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\App.g.cs
-D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\adminWPF_MarkupCompile.cache
 D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\adminWPF_MarkupCompile.lref
 D:\_art\_csharp\coffeOneLoveProj\apps\adminWPF\obj\Debug\net8.0-windows\App.baml

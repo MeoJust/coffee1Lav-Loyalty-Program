@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
       "Id": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

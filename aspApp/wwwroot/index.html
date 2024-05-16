@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- СТАНДАРННЫЕ НАСТРОЙКИ СТРАНИЦЫ -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <!-- ПОДКЛЮЧЕНИЕ BOOTSTRAP -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Регистрация в программе лояльности Coffee1Lav</h2>
+    <!-- ФОРМА РЕГИСТРАЦИИ С УКАЗАНИЕМ ОБЯЗАТЕЛЬНЫХ ПОЛЕЙ -->
+    <form id="registration-form">
+      <!-- ФОРМА ВВОДА ИМЕНИ -->
+      <!-- !ИМЯ ТОЛЬКО ЛАТИНИЦЕЙ! -->
+      <div class="form-group">
+        <label for="name">Имя:</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+      </div>
+
+      <!-- ФОРМА ВВОДА ТЕЛЕФОНА -->
+      <div class="form-group">
+        <label for="phone">Телефон (+375xxxxxxxxx):</label>
+        <!-- ПРОВЕРКА ПРАВИЛЬНОСТИ ФОРМАТА ТЕЛЕФОНА -->
+        <input type="tel" class="form-control" id="phone" name="phone" pattern="^\+375(25|29|33|44)\d{7}$" required>
+      </div>
+
+      <!-- СООБЩЕНИЕ ОБ УСПЕХЕ РЕГИСТРАЦИИ -->
+      <div id="success-message" class="alert alert-success" style="display: none;">
+        Registration successful!
+      </div>
+
+      <!-- СООБЩЕНИЕ ОБ ОШИБКЕ РЕГИСТРАЦИИ -->
+      <div id="error-message" class="alert alert-danger" style="display: none;">
+        Registration failed!
+      </div>
+
+      <!-- КНОПКА РЕГИСТРАЦИИ -->
+      <button type="submit" class="btn btn-primary">Зарегестрироваться</button>
+    </form>
+  </div>
+
+  <script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+      //ОПРЕДЕЛЕНИЕ БАЗОВОГО URL
+      //НАСТРОЕН ТОЛЬКО НА HTTP
+      var baseUrl;
+      if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+        baseUrl = 'http://localhost:5203';
+      } else {
+        baseUrl = 'http://192.168.100.43:5203';
+      }
+
+      //СОЗДАНИЕ ФОРМЫ И ОБРАБОТЧИКА ОТПРАВКИ 
+      var form = document.getElementById('registration-form');
+
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        var formData = new FormData(form);
+
+        // ОТПРАВКА ДАННЫХ НА СЕРВЕР
+        fetch(baseUrl + '/register', {
+          method: 'POST',
+          body: formData
+        })
+          .then(response => {
+            if (response.ok) {
+              // СОХРАНЕНИЕ ДАННЫХ В JSON ФОРМАТЕ
+              return response.json();
+            } else {
+              throw new Error('Network response was not ok: ' + response.statusText);
+            }
+          })
+          .then(data => {
+            // ВЫВОД СООБЩЕНИЯ ОБ УСПЕХЕ
+            console.log('Success:', data);
+            document.getElementById('success-message').style.display = 'block';
+            document.getElementById('error-message').style.display = 'none';
+            // ПЕРЕХОД ПО JWT ССЫЛКЕ, СГЕНЕРИРОВАННОЙ СЕРВЕРОМ
+            window.location.href = data.jwtLink;
+          })
+          .catch((error) => {
+            console.error('Error:', error);
+            document.getElementById('error-message').style.display = 'block';
+            document.getElementById('success-message').style.display = 'none';
+          });
+      });
+    });
+
+  </script>
+  <!-- ПОДКЛЮЧЕНИЕ ДОП. БИБЛИОТЕК -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

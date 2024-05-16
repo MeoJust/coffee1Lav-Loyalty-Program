@@ -31,7 +31,6 @@ namespace aspApp.Controllers
 
             string classId = "3388000000022315715.coffeOneLav";
 
-            //string objectId = $"{classId}.{user.Name}";
             string objectId = $"{user.Name}";
 
 

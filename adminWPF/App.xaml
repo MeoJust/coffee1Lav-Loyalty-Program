@@ -2,7 +2,6 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:adminWPF"
-             xmlns:VM="clr-namespace:adminWPF.vm"
              xmlns:view="clr-namespace:adminWPF.views"
              StartupUri="windows/LoginWindow.xaml">
     <Application.Resources>
@@ -12,18 +11,6 @@
                 <ResourceDictionary Source="/themes/TextBoxTheme.xaml" />
                 <ResourceDictionary Source="/themes/ButtonTheme.xaml"/>
             </ResourceDictionary.MergedDictionaries>
-
-            <DataTemplate DataType="{x:Type VM:BonusesVM}">
-                <view:BonusView/>
-            </DataTemplate>
-
-            <DataTemplate DataType="{x:Type VM:NotifiVM}">
-                <view:NotifiView/>
-            </DataTemplate>
-
-            <DataTemplate DataType="{x:Type VM:ExitVM}">
-                <view:ExitView/>
-            </DataTemplate>
 
         </ResourceDictionary>
     </Application.Resources>

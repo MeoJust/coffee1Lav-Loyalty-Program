@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vDpQ3GxPL0asSECwB/vVy5vz5wGNu1MKwyWBhVI38t8=",
+  "Hash": "suQC8PNQ2aDYG6rCwy7O9wu4z8J/T0noRS7DR6ab7Jc=",
   "Source": "aspApp",
   "BasePath": "_content/aspApp",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\wwwroot\\index.html",
+      "SourceId": "aspApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\wwwroot\\",
+      "BasePath": "_content/aspApp",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
       "Identity": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\aspApp\\wwwroot\\js\\site.js",
