@@ -25,7 +25,7 @@ namespace aspApp.Controllers
             System.IO.File.WriteAllText(filename, json);
 
             // После сохранения данных регистрации, создаем карту лояльности
-            Authorization auth = new Authorization("D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\saKey.json");
+            Authorization auth = new Authorization("D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\eptaKey.json");
             CardObject cardObject = new CardObject(auth.WalletService);
             JWTGen jwtGen = new JWTGen(auth.Credentials);
 

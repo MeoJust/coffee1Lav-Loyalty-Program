@@ -6,14 +6,14 @@
         //Точка входа в программу
         public static void Main(string[] args) {
             //Связь с Google Wallet API
-            Authorization auth = new Authorization("D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\saKey.json");
+            Authorization auth = new Authorization("D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\eptaKey.json");
             CardClass cardClass = new CardClass(auth.WalletService);
             CardObject cardObject = new CardObject(auth.WalletService);
 
             //Создание класса карты
             cardClass.CreateClass("3388000000022315715", "coffeOneLav");
             //Создание обьекта карты
-            cardObject.CreateObject("3388000000022315715", "coffeOneLav", "1","2");
+            cardObject.CreateObject("3388000000022315715", "coffeOneLav", "diss","2");
 
 
             //Вывод списка активных карт
