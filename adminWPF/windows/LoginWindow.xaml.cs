@@ -1,4 +1,7 @@
 ﻿using adminWPF.core;
+using Newtonsoft.Json;
+using System.Diagnostics;
+using System.IO;
 using System.Windows;
 using System.Windows.Input;
 
@@ -6,8 +9,7 @@ namespace adminWPF.windows
 {
     public partial class LoginWindow : Window
     {
-        readonly APISet _apiSet = new APISet("D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\saKey.json");
-        readonly GetAdminData _adminData;
+        APISet _apiSet = new APISet("D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\saKey.json");
 
         DragableWindow _dragableWindow = new DragableWindow();
         CloseApp _closeApp;
@@ -15,12 +17,18 @@ namespace adminWPF.windows
         public LoginWindow() {
             InitializeComponent();
             _closeApp = new CloseApp();
-            _adminData = new GetAdminData(@"D:\_art\_csharp\coffeOneLoveProj\_keys\_admins");
         }
 
         private void loginBTN_Click(object sender, RoutedEventArgs e) {
+            Debug.WriteLine("Before reading loginTXT.Text");
             string login = loginTXT.Text;
-            string password = passwordTXT.Text;
+            Debug.WriteLine("After reading loginTXT.Text: " + login);
+            string password = passwordTXT.Text; 
+
+            Debug.WriteLine(login);
+            Debug.WriteLine(password);
+
+            string folderPath = @"D:\_art\_csharp\coffeOneLoveProj\_keys\_admins";
 
             if (string.IsNullOrWhiteSpace(login) || string.IsNullOrWhiteSpace(password))
             {
@@ -28,19 +36,21 @@ namespace adminWPF.windows
                 return;
             }
 
-            Admin admin = _adminData.GetData(login, password);
+            foreach (string file in Directory.GetFiles(folderPath, "*.json"))
+            {
+                string jsonContent = File.ReadAllText(file);
+                Admin admin = JsonConvert.DeserializeObject<Admin>(jsonContent);
 
-            if (admin != null)
-            {
-                MainWindow mainWindow = new MainWindow(_apiSet.WalletService, admin);
-                mainWindow.adminTXT.Text = admin.Name;
-                mainWindow.Show();
-                Close();
+                if (admin.Login == login && admin.Password == password)
+                {
+                    MainWindow mainWindow = new MainWindow(_apiSet.WalletService);
+                    mainWindow.adminTXT.Text = admin.Name;
+                    mainWindow.Show();
+                    Close();
+                    return;
+                }
             }
-            else
-            {
-                MessageBox.Show("Неверный логин или пароль");
-            }
+            MessageBox.Show("Неверный логин или пароль");
         }
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e) {

@@ -3,46 +3,8 @@
   "WorkspaceRootPath": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\_admins\\admTest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|d:\\_art\\_csharp\\coffeoneloveproj\\apps\\adminwpf\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\dragablewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:core\\dragablewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\closeapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:core\\closeapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\getadmindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:core\\getadmindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\exitview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:views\\exitview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:windows\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\exitview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:views\\exitview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:windows\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\_admins\\admLena.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:core\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\_admins\\admAlf.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
@@ -51,8 +13,42 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\_admins\\admDima.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:core\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\_admins\\admLena.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\_admins\\admTest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\exitview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:views\\exitview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\exitview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:views\\exitview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:windows\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:windows\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|d:\\_art\\_csharp\\coffeoneloveproj\\apps\\adminwpf\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|d:\\_art\\_csharp\\coffeoneloveproj\\apps\\adminwpf\\core\\dragablewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:core\\dragablewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|d:\\_art\\_csharp\\coffeoneloveproj\\apps\\adminwpf\\core\\closeapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:core\\closeapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,16 +59,12 @@
       "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:core\\notifisender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\cardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:core\\cardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\bonuspointsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:core\\bonuspointsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\apiset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:core\\apiset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\cardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:core\\cardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\notifiview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,6 +73,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\bonusview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:views\\bonusview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:core\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\apiset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F398DD6-0763-4A48-83B2-76AEB49DAFA4}|adminWPF.csproj|solutionrelative:core\\apiset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\obj\\Debug\\net8.0-windows\\windows\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,95 +118,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CloseApp.cs",
-              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\CloseApp.cs",
-              "RelativeDocumentMoniker": "core\\CloseApp.cs",
-              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\CloseApp.cs",
-              "RelativeToolTip": "core\\CloseApp.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:16:55.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DragableWindow.cs",
-              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\DragableWindow.cs",
-              "RelativeDocumentMoniker": "core\\DragableWindow.cs",
-              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\DragableWindow.cs",
-              "RelativeToolTip": "core\\DragableWindow.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:01:21.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GetAdminData.cs",
-              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\GetAdminData.cs",
-              "RelativeDocumentMoniker": "core\\GetAdminData.cs",
-              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\GetAdminData.cs",
-              "RelativeToolTip": "core\\GetAdminData.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T09:36:56.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "admTest.json",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\_admins\\admTest.json",
               "RelativeDocumentMoniker": "..\\..\\_keys\\_admins\\admTest.json",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\_admins\\admTest.json",
               "RelativeToolTip": "..\\..\\_keys\\_admins\\admTest.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-19T09:27:20.649Z",
+              "WhenOpened": "2024-05-19T23:37:46.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "admLena.json",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\_admins\\admLena.json",
               "RelativeDocumentMoniker": "..\\..\\_keys\\_admins\\admLena.json",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\_admins\\admLena.json",
               "RelativeToolTip": "..\\..\\_keys\\_admins\\admLena.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-19T09:27:18.842Z"
+              "WhenOpened": "2024-05-19T23:37:44.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "admDima.json",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\_admins\\admDima.json",
               "RelativeDocumentMoniker": "..\\..\\_keys\\_admins\\admDima.json",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\_admins\\admDima.json",
               "RelativeToolTip": "..\\..\\_keys\\_admins\\admDima.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-19T09:27:16.573Z"
+              "WhenOpened": "2024-05-19T23:37:42.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "admAlf.json",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\_admins\\admAlf.json",
               "RelativeDocumentMoniker": "..\\..\\_keys\\_admins\\admAlf.json",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\_admins\\admAlf.json",
               "RelativeToolTip": "..\\..\\_keys\\_admins\\admAlf.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-19T09:25:20.855Z"
+              "WhenOpened": "2024-05-19T23:37:28.615Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 11,
+              "Title": "DragableWindow.cs",
+              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\DragableWindow.cs",
+              "RelativeDocumentMoniker": "core\\DragableWindow.cs",
+              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\DragableWindow.cs",
+              "RelativeToolTip": "core\\DragableWindow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T23:17:22.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CloseApp.cs",
+              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\CloseApp.cs",
+              "RelativeDocumentMoniker": "core\\CloseApp.cs",
+              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\CloseApp.cs",
+              "RelativeToolTip": "core\\CloseApp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T23:17:09.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "BonusPointsManager.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\BonusPointsManager.cs",
               "RelativeDocumentMoniker": "core\\BonusPointsManager.cs",
@@ -218,7 +208,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
+              "Title": "ObservableObject.cs",
+              "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\ObservableObject.cs",
+              "RelativeDocumentMoniker": "core\\ObservableObject.cs",
+              "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\ObservableObject.cs",
+              "RelativeToolTip": "core\\ObservableObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T22:03:56.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\RelayCommand.cs",
               "RelativeDocumentMoniker": "core\\RelayCommand.cs",
@@ -254,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "NotifiSender.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\NotifiSender.cs",
               "RelativeDocumentMoniker": "core\\NotifiSender.cs",
@@ -285,11 +287,12 @@
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-14T20:07:33.06Z"
+              "WhenOpened": "2024-05-14T20:07:33.06Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "APISet.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\APISet.cs",
               "RelativeDocumentMoniker": "core\\APISet.cs",
@@ -301,15 +304,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "ExitView.xaml.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\ExitView.xaml.cs",
               "RelativeDocumentMoniker": "views\\ExitView.xaml.cs",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\ExitView.xaml.cs",
               "RelativeToolTip": "views\\ExitView.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T21:44:51.001Z"
+              "WhenOpened": "2024-05-13T21:44:51.001Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -319,58 +323,63 @@
               "RelativeDocumentMoniker": "windows\\LoginWindow.xaml.cs",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\LoginWindow.xaml.cs",
               "RelativeToolTip": "windows\\LoginWindow.xaml.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwDQAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwBMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T21:34:31.294Z"
+              "WhenOpened": "2024-05-13T21:34:31.294Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "Admin.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\Admin.cs",
               "RelativeDocumentMoniker": "core\\Admin.cs",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\core\\Admin.cs",
               "RelativeToolTip": "core\\Admin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T19:22:34.708Z"
+              "WhenOpened": "2024-05-15T19:22:34.708Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "ExitView.xaml",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\ExitView.xaml",
               "RelativeDocumentMoniker": "views\\ExitView.xaml",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\ExitView.xaml",
               "RelativeToolTip": "views\\ExitView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T21:42:05.401Z"
+              "WhenOpened": "2024-05-13T21:42:05.401Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "LoginWindow.xaml",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "windows\\LoginWindow.xaml",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\LoginWindow.xaml",
               "RelativeToolTip": "windows\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T21:31:44.493Z"
+              "WhenOpened": "2024-05-13T21:31:44.493Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\MainWindow.xaml",
               "RelativeDocumentMoniker": "windows\\MainWindow.xaml",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\MainWindow.xaml",
               "RelativeToolTip": "windows\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T21:19:33.313Z"
+              "WhenOpened": "2024-05-13T21:19:33.313Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 17,
               "Title": "NotifiView.xaml.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\NotifiView.xaml.cs",
               "RelativeDocumentMoniker": "views\\NotifiView.xaml.cs",
@@ -393,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 18,
               "Title": "BonusView.xaml.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\views\\BonusView.xaml.cs",
               "RelativeDocumentMoniker": "views\\BonusView.xaml.cs",
@@ -416,13 +425,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "windows\\MainWindow.xaml.cs",
               "ToolTip": "D:\\_art\\_csharp\\coffeOneLoveProj\\apps\\adminWPF\\windows\\MainWindow.xaml.cs",
               "RelativeToolTip": "windows\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAARAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAgwFQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T18:11:58.46Z",
               "EditorCaption": ""

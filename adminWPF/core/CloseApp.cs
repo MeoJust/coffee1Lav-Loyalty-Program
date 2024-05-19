@@ -4,8 +4,7 @@ namespace adminWPF.core
 {
     internal class CloseApp
     {
-        public void Close()
-        {
+        public void Close() {
             Application.Current.Shutdown();
         }
     }

@@ -11,23 +11,16 @@ namespace adminWPF.windows
 {
     public partial class MainWindow : Window
     {
-        WalletobjectsService _service;
-        Admin _admin;
+        private WalletobjectsService _service;
         DragableWindow _dragableWindow = new DragableWindow();
 
         BonusView _bonusView;
         NotifiView _notifiView;
         ExitView _exitView;
 
-
-        string _classId;
-
-        public MainWindow(WalletobjectsService service, Admin admin) {
+        public MainWindow(WalletobjectsService service) {
             InitializeComponent();
             _service = service;
-            _admin = admin;
-
-            _classId = _admin.ClassId;
             LoadLoyaltyObjects();
 
             idTXT.Text = "Выберите карту из списка";
@@ -49,7 +42,7 @@ namespace adminWPF.windows
 
         //Вывод списка объектов
         private void LoadLoyaltyObjects() {
-            string classId = _classId;
+            string classId = "3388000000022315715.coffeOneLav";
             IList<LoyaltyObject> loyaltyObjects = GetAllLoyaltyObjects(classId);
             usersLV.ItemsSource = loyaltyObjects;
         }
@@ -63,9 +56,6 @@ namespace adminWPF.windows
                 request.ClassId = classId;
                 LoyaltyObjectListResponse response = request.Execute();
                 IList<LoyaltyObject> loyaltyObjects = response.Resources;
-
-
-
                 foreach (var lo in loyaltyObjects)
                 {
                     Console.WriteLine(lo.Id);
@@ -83,7 +73,7 @@ namespace adminWPF.windows
         private void usersLV_SelectionChanged(object sender, SelectionChangedEventArgs e) {
             if (usersLV.SelectedItem is LoyaltyObject selectedLoyaltyObject)
             {
-                idTXT.Text = selectedLoyaltyObject.AccountName;
+                idTXT.Text = selectedLoyaltyObject.Id;
             }
         }
 
