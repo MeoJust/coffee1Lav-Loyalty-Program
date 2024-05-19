@@ -11,15 +11,23 @@ namespace adminWPF.windows
 {
     public partial class MainWindow : Window
     {
-        private WalletobjectsService _service;
+        WalletobjectsService _service;
+        Admin _admin;
+        DragableWindow _dragableWindow = new DragableWindow();
 
         BonusView _bonusView;
         NotifiView _notifiView;
         ExitView _exitView;
 
-        public MainWindow(WalletobjectsService service) {
+
+        string _classId;
+
+        public MainWindow(WalletobjectsService service, Admin admin) {
             InitializeComponent();
             _service = service;
+            _admin = admin;
+
+            _classId = _admin.ClassId;
             LoadLoyaltyObjects();
 
             idTXT.Text = "Выберите карту из списка";
@@ -41,7 +49,7 @@ namespace adminWPF.windows
 
         //Вывод списка объектов
         private void LoadLoyaltyObjects() {
-            string classId = "3388000000022315715.coffeOneLav";
+            string classId = _classId;
             IList<LoyaltyObject> loyaltyObjects = GetAllLoyaltyObjects(classId);
             usersLV.ItemsSource = loyaltyObjects;
         }
@@ -55,6 +63,9 @@ namespace adminWPF.windows
                 request.ClassId = classId;
                 LoyaltyObjectListResponse response = request.Execute();
                 IList<LoyaltyObject> loyaltyObjects = response.Resources;
+
+
+
                 foreach (var lo in loyaltyObjects)
                 {
                     Console.WriteLine(lo.Id);
@@ -72,14 +83,14 @@ namespace adminWPF.windows
         private void usersLV_SelectionChanged(object sender, SelectionChangedEventArgs e) {
             if (usersLV.SelectedItem is LoyaltyObject selectedLoyaltyObject)
             {
-                idTXT.Text = selectedLoyaltyObject.Id;
+                idTXT.Text = selectedLoyaltyObject.AccountName;
             }
         }
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e) {
             if (e.LeftButton == MouseButtonState.Pressed)
             {
-                DragMove();
+                _dragableWindow.DragTheWindow(sender, e, this);
             }
         }
 

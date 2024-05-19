@@ -1,17 +1,21 @@
 ﻿using System.Windows.Controls;
 using System.Windows;
+using adminWPF.core;
 
 
 namespace adminWPF.views
 {
     public partial class ExitView : UserControl
     {
+        CloseApp _closeApp;
+
         public ExitView() {
             InitializeComponent();
+            _closeApp = new CloseApp();
         }
 
-        void exitBTN_Click(object sender, System.Windows.RoutedEventArgs e) {
-            Application.Current.Shutdown();
+        private void exitBTN_Click(object sender, RoutedEventArgs e) {
+            _closeApp.Close();
         }
     }
 }

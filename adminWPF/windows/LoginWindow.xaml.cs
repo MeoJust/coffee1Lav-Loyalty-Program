@@ -1,7 +1,4 @@
 ﻿using adminWPF.core;
-using Newtonsoft.Json;
-using System.Diagnostics;
-using System.IO;
 using System.Windows;
 using System.Windows.Input;
 
@@ -9,29 +6,21 @@ namespace adminWPF.windows
 {
     public partial class LoginWindow : Window
     {
-        APISet _apiSet = new APISet("D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\saKey.json");
+        readonly APISet _apiSet = new APISet("D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\saKey.json");
+        readonly GetAdminData _adminData;
+
+        DragableWindow _dragableWindow = new DragableWindow();
+        CloseApp _closeApp;
 
         public LoginWindow() {
             InitializeComponent();
-        }
-
-        private void Window_MouseDown(object sender, MouseButtonEventArgs e) {
-            if (e.LeftButton == MouseButtonState.Pressed)
-            {
-                DragMove();
-            }
+            _closeApp = new CloseApp();
+            _adminData = new GetAdminData(@"D:\_art\_csharp\coffeOneLoveProj\_keys\_admins");
         }
 
         private void loginBTN_Click(object sender, RoutedEventArgs e) {
-            Debug.WriteLine("Before reading loginTXT.Text");
             string login = loginTXT.Text;
-            Debug.WriteLine("After reading loginTXT.Text: " + login);
-            string password = passwordTXT.Text; 
-
-            Debug.WriteLine(login);
-            Debug.WriteLine(password);
-
-            string folderPath = @"D:\_art\_csharp\coffeOneLoveProj\_keys\_admins";
+            string password = passwordTXT.Text;
 
             if (string.IsNullOrWhiteSpace(login) || string.IsNullOrWhiteSpace(password))
             {
@@ -39,25 +28,30 @@ namespace adminWPF.windows
                 return;
             }
 
-            foreach (string file in Directory.GetFiles(folderPath, "*.json"))
-            {
-                string jsonContent = File.ReadAllText(file);
-                Admin admin = JsonConvert.DeserializeObject<Admin>(jsonContent);
+            Admin admin = _adminData.GetData(login, password);
 
-                if (admin.Login == login && admin.Password == password)
-                {
-                    MainWindow mainWindow = new MainWindow(_apiSet.WalletService);
-                    mainWindow.adminTXT.Text = admin.Name;
-                    mainWindow.Show();
-                    Close();
-                    return;
-                }
+            if (admin != null)
+            {
+                MainWindow mainWindow = new MainWindow(_apiSet.WalletService, admin);
+                mainWindow.adminTXT.Text = admin.Name;
+                mainWindow.Show();
+                Close();
             }
-            MessageBox.Show("Неверный логин или пароль");
+            else
+            {
+                MessageBox.Show("Неверный логин или пароль");
+            }
+        }
+
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e) {
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                _dragableWindow.DragTheWindow(sender, e, this);
+            }
         }
 
         private void exitBTN_Click(object sender, RoutedEventArgs e) {
-            Application.Current.Shutdown();
+            _closeApp.Close();
         }
     }
 }
