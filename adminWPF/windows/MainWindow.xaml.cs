@@ -18,6 +18,8 @@ namespace adminWPF.windows
         NotifiView _notifiView;
         ExitView _exitView;
 
+        string idToSendTXT;
+
         public MainWindow(WalletobjectsService service) {
             InitializeComponent();
             _service = service;
@@ -73,7 +75,8 @@ namespace adminWPF.windows
         private void usersLV_SelectionChanged(object sender, SelectionChangedEventArgs e) {
             if (usersLV.SelectedItem is LoyaltyObject selectedLoyaltyObject)
             {
-                idTXT.Text = selectedLoyaltyObject.Id;
+                idTXT.Text = selectedLoyaltyObject.AccountName;
+                idToSendTXT = selectedLoyaltyObject.Id;
             }
         }
 
@@ -108,7 +111,7 @@ namespace adminWPF.windows
         private void RemovePoints() {
             IdTXTCheck();
 
-            string objectId = idTXT.Text;
+            string objectId = idToSendTXT;
             int pointsToAdd;
 
             if (int.TryParse(_bonusView.pointsTXT.Text, out pointsToAdd))
@@ -183,7 +186,7 @@ namespace adminWPF.windows
             };
 
             //Отправка уведомления по ID
-            notifiSender.AddMessageToLoyaltyObject(idTXT.Text, message);
+            notifiSender.AddMessageToLoyaltyObject(idToSendTXT, message);
 
             try
             {

@@ -6,7 +6,7 @@
         //Точка входа в программу
         public static void Main(string[] args) {
             //Связь с Google Wallet API
-            Authorization auth = new Authorization("D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\eptaKey.json");
+            Authorization auth = new Authorization("D:\\_art\\_csharp\\coffeOneLoveProj\\_keys\\saKey.json");
             CardClass cardClass = new CardClass(auth.WalletService);
             CardObject cardObject = new CardObject(auth.WalletService);
 

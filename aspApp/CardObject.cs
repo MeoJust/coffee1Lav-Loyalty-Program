@@ -57,12 +57,7 @@ namespace aspApp
                 },
                 TextModulesData = new List<TextModuleData>
       {
-        new TextModuleData
-        {
-          Header = "Text module header",
-          Body = "Text module body",
-          Id = "TEXT_MODULE_ID"
-        }
+
       },
                 LinksModuleData = new LinksModuleData
                 {
@@ -111,11 +106,7 @@ namespace aspApp
                 },
                 Locations = new List<LatLongPoint>
       {
-        new LatLongPoint
-        {
-          Latitude = 37.424015499999996,
-          Longitude = -122.09259560000001
-        }
+
       },
                 AccountId = "Account id",
                 AccountName = userName,
@@ -124,7 +115,7 @@ namespace aspApp
                     Label = "Points",
                     Balance = new LoyaltyPointsBalance
                     {
-                        Int__ = 777
+                        Int__ = 0
                     }
                 }
             };
