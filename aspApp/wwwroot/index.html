@@ -19,14 +19,14 @@
       <!-- !ИМЯ ТОЛЬКО ЛАТИНИЦЕЙ! -->
       <div class="form-group">
         <label for="name">Имя:</label>
-        <input type="text" class="form-control" id="name" name="name" required>
+        <input type="text" class="form-control" id="name" name="name" pattern="[A-Za-z]+" title="Имя должно содержать только буквы латинского алфавита" required>
       </div>
 
       <!-- ФОРМА ВВОДА ТЕЛЕФОНА -->
       <div class="form-group">
         <label for="phone">Телефон (+375xxxxxxxxx):</label>
         <!-- ПРОВЕРКА ПРАВИЛЬНОСТИ ФОРМАТА ТЕЛЕФОНА -->
-        <input type="tel" class="form-control" id="phone" name="phone" pattern="^\+375(25|29|33|44)\d{7}$" required>
+        <input type="tel" class="form-control" id="phone" name="phone" pattern="^\+375(25|29|33|44)\d{7}$" title="Пожалуйстай, введите телефон в формате +375XXXXXXXXX" required>
       </div>
 
       <!-- СООБЩЕНИЕ ОБ УСПЕХЕ РЕГИСТРАЦИИ -->
