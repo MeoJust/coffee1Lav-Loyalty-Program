@@ -90,7 +90,7 @@ namespace adminWPF.windows
         private void AddPoints() {
             IdTXTCheck();
 
-            string objectId = idTXT.Text;
+            string objectId = idToSendTXT;
             int pointsToAdd;
 
             if (int.TryParse(_bonusView.pointsTXT.Text, out pointsToAdd))
